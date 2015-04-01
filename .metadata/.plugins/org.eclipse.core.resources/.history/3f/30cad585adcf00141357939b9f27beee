@@ -1,0 +1,53 @@
+package com.digital.backend.action.items.hotnews;
+
+import java.io.IOException;
+import java.util.ArrayList;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.digital.backend.bean.hotnews.HotNewsBean;
+import com.digital.backend.dao.hotnews.HotNewsDAO;
+import com.oreilly.servlet.ParameterParser;
+
+public class HotNewsAction extends HttpServlet{
+	private static final long serialVersionUID = 1L;
+
+	@Override
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		try {
+			processRequest(request, response);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		try {
+			processRequest(request, response);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	private void processRequest(HttpServletRequest request,
+			HttpServletResponse response) throws Exception{
+		ParameterParser parser = new ParameterParser(request);
+		
+		int page = parser.getIntParameter("page", 1);
+		int page_size = parser.getIntParameter("page_size", 10);
+		
+		ArrayList<HotNewsBean> list = new ArrayList<HotNewsBean>();
+		list = HotNewsDAO.getInstance().getAllHotNews(page, page_size);
+		
+		request.setAttribute("hotnewsList", list);
+		
+		String url = "/backend/hotnews/hotnews-list.jsp";
+		getServletContext().getRequestDispatcher(url).forward(request, response);
+	}
+}

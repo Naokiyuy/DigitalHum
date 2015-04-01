@@ -1,0 +1,776 @@
+2015-03-09 02:20:41,262 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo1.maven.org/maven2/org/parallelj/parallelj-archetype-web/1.4.1/parallelj-archetype-web-1.4.1.jar
+2015-03-09 02:20:41,839 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo1.maven.org/maven2/org/parallelj/parallelj-archetype-web/1.4.1/parallelj-archetype-web-1.4.1.jar
+2015-03-09 02:21:48,599 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo1.maven.org/maven2/org/parallelj/parallelj-archetype-web/1.4.1/parallelj-archetype-web-1.4.1.pom
+2015-03-09 02:21:49,189 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo1.maven.org/maven2/org/parallelj/parallelj-archetype-web/1.4.1/parallelj-archetype-web-1.4.1.pom
+2015-03-09 02:21:49,231 [Worker-11] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' I:\MyWorkspace\DigitalHum\java\pom.xml
+2015-03-09 02:21:50,395 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/mojo/aspectj-maven-plugin/1.2/aspectj-maven-plugin-1.2.pom
+2015-03-09 02:21:50,747 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/mojo/aspectj-maven-plugin/1.2/aspectj-maven-plugin-1.2.pom
+2015-03-09 02:21:50,929 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/21/mojo-parent-21.pom
+2015-03-09 02:21:51,453 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/21/mojo-parent-21.pom
+2015-03-09 02:21:51,642 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/mojo/aspectj-maven-plugin/1.2/aspectj-maven-plugin-1.2.jar
+2015-03-09 02:21:52,171 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/mojo/aspectj-maven-plugin/1.2/aspectj-maven-plugin-1.2.jar
+2015-03-09 02:21:52,542 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/2.3.1/maven-compiler-plugin-2.3.1.jar
+2015-03-09 02:21:53,065 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/2.3.1/maven-compiler-plugin-2.3.1.jar
+2015-03-09 02:21:53,372 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/2.3.1/maven-compiler-plugin-2.3.1.pom
+2015-03-09 02:21:53,721 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/2.3.1/maven-compiler-plugin-2.3.1.pom
+2015-03-09 02:21:53,900 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/18/maven-plugins-18.pom
+2015-03-09 02:21:54,252 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/18/maven-plugins-18.pom
+2015-03-09 02:21:54,431 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/16/maven-parent-16.pom
+2015-03-09 02:21:54,790 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/16/maven-parent-16.pom
+2015-03-09 02:21:54,968 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/apache/7/apache-7.pom
+2015-03-09 02:21:55,322 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/apache/7/apache-7.pom
+2015-03-09 02:21:55,639 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/1.8/plexus-compiler-api-1.8.pom
+2015-03-09 02:21:55,986 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/1.8/plexus-compiler-api-1.8.pom
+2015-03-09 02:21:56,164 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/1.8/plexus-compiler-1.8.pom
+2015-03-09 02:21:56,513 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/1.8/plexus-compiler-1.8.pom
+2015-03-09 02:21:56,691 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.17/plexus-components-1.1.17.pom
+2015-03-09 02:21:57,051 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.17/plexus-components-1.1.17.pom
+2015-03-09 02:21:57,230 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/2.0.5/plexus-2.0.5.pom
+2015-03-09 02:21:57,585 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/2.0.5/plexus-2.0.5.pom
+2015-03-09 02:21:57,766 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.5/plexus-utils-1.5.5.pom
+2015-03-09 02:21:58,115 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.5/plexus-utils-1.5.5.pom
+2015-03-09 02:21:58,299 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/1.8/plexus-compiler-manager-1.8.pom
+2015-03-09 02:21:58,647 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/1.8/plexus-compiler-manager-1.8.pom
+2015-03-09 02:21:58,827 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/1.8/plexus-compiler-javac-1.8.pom
+2015-03-09 02:21:59,175 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/1.8/plexus-compiler-javac-1.8.pom
+2015-03-09 02:21:59,353 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/1.8/plexus-compilers-1.8.pom
+2015-03-09 02:21:59,701 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/1.8/plexus-compilers-1.8.pom
+2015-03-09 02:21:59,900 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/1.8/plexus-compiler-api-1.8.jar
+2015-03-09 02:22:00,255 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/1.8/plexus-compiler-api-1.8.jar
+2015-03-09 02:22:00,426 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/1.8/plexus-compiler-manager-1.8.jar
+2015-03-09 02:22:00,774 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/1.8/plexus-compiler-manager-1.8.jar
+2015-03-09 02:22:00,945 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/1.8/plexus-compiler-javac-1.8.jar
+2015-03-09 02:22:01,297 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/1.8/plexus-compiler-javac-1.8.jar
+2015-03-09 02:22:01,696 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: digital.backend:java:0.0.1-SNAPSHOT @ I:\MyWorkspace\DigitalHum\java\pom.xml.
+2015-03-09 02:22:01,889 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/junit/junit/4.8.1/junit-4.8.1.pom
+2015-03-09 02:22:02,236 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/junit/junit/4.8.1/junit-4.8.1.pom
+2015-03-09 02:22:02,490 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/parallelj/parallelj-launching/1.4.1/parallelj-launching-1.4.1.pom
+2015-03-09 02:22:03,107 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/parallelj/parallelj-launching/1.4.1/parallelj-launching-1.4.1.pom
+2015-03-09 02:22:03,478 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/parallelj/parallelj/1.4.1/parallelj-1.4.1.pom
+2015-03-09 02:22:04,026 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/parallelj/parallelj/1.4.1/parallelj-1.4.1.pom
+2015-03-09 02:22:04,206 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+2015-03-09 02:22:04,554 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+2015-03-09 02:22:04,733 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.pom
+2015-03-09 02:22:05,081 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.pom
+2015-03-09 02:22:05,260 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/aspectj/aspectjrt/1.7.3/aspectjrt-1.7.3.pom
+2015-03-09 02:22:05,608 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/aspectj/aspectjrt/1.7.3/aspectjrt-1.7.3.pom
+2015-03-09 02:22:05,964 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/parallelj/parallelj-jmx/1.4.1/parallelj-jmx-1.4.1.pom
+2015-03-09 02:22:06,529 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/parallelj/parallelj-jmx/1.4.1/parallelj-jmx-1.4.1.pom
+2015-03-09 02:22:06,886 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/parallelj/parallelj-core/1.4.1/parallelj-core-1.4.1.pom
+2015-03-09 02:22:07,485 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/parallelj/parallelj-core/1.4.1/parallelj-core-1.4.1.pom
+2015-03-09 02:22:07,665 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.pom
+2015-03-09 02:22:08,012 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.pom
+2015-03-09 02:22:08,191 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.2/slf4j-parent-1.7.2.pom
+2015-03-09 02:22:08,548 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.2/slf4j-parent-1.7.2.pom
+2015-03-09 02:22:08,729 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.7.2/slf4j-log4j12-1.7.2.pom
+2015-03-09 02:22:09,077 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.7.2/slf4j-log4j12-1.7.2.pom
+2015-03-09 02:22:09,257 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.pom
+2015-03-09 02:22:09,615 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.pom
+2015-03-09 02:22:09,796 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.7.3/aspectjweaver-1.7.3.pom
+2015-03-09 02:22:10,143 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.7.3/aspectjweaver-1.7.3.pom
+2015-03-09 02:22:10,324 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/google/code/gson/gson/1.6/gson-1.6.pom
+2015-03-09 02:22:10,674 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/google/code/gson/gson/1.6/gson-1.6.pom
+2015-03-09 02:22:10,854 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/sshd/sshd-core/0.6.0/sshd-core-0.6.0.pom
+2015-03-09 02:22:11,203 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/sshd/sshd-core/0.6.0/sshd-core-0.6.0.pom
+2015-03-09 02:22:11,382 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/sshd/sshd/0.6.0/sshd-0.6.0.pom
+2015-03-09 02:22:11,732 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/sshd/sshd/0.6.0/sshd-0.6.0.pom
+2015-03-09 02:22:11,913 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/mina/mina-core/2.0.2/mina-core-2.0.2.pom
+2015-03-09 02:22:12,261 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/mina/mina-core/2.0.2/mina-core-2.0.2.pom
+2015-03-09 02:22:12,440 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/mina/mina-parent/2.0.2/mina-parent-2.0.2.pom
+2015-03-09 02:22:12,808 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/mina/mina-parent/2.0.2/mina-parent-2.0.2.pom
+2015-03-09 02:22:12,988 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.5.11/slf4j-api-1.5.11.pom
+2015-03-09 02:22:13,344 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.5.11/slf4j-api-1.5.11.pom
+2015-03-09 02:22:13,523 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.5.11/slf4j-parent-1.5.11.pom
+2015-03-09 02:22:13,949 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.5.11/slf4j-parent-1.5.11.pom
+2015-03-09 02:22:14,129 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.pom
+2015-03-09 02:22:14,483 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.pom
+2015-03-09 02:22:14,662 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/22/commons-parent-22.pom
+2015-03-09 02:22:15,185 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/22/commons-parent-22.pom
+2015-03-09 02:22:15,365 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/apache/9/apache-9.pom
+2015-03-09 02:22:15,722 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/apache/9/apache-9.pom
+2015-03-09 02:22:15,902 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.pom
+2015-03-09 02:22:16,252 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.pom
+2015-03-09 02:22:16,430 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/11/commons-parent-11.pom
+2015-03-09 02:22:16,788 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/11/commons-parent-11.pom
+2015-03-09 02:22:17,048 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jolokia/jolokia-core/1.0.2/jolokia-core-1.0.2.pom
+2015-03-09 02:22:17,606 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jolokia/jolokia-core/1.0.2/jolokia-core-1.0.2.pom
+2015-03-09 02:22:17,859 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jolokia/jolokia-agent-parent/1.0.2/jolokia-agent-parent-1.0.2.pom
+2015-03-09 02:22:18,412 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jolokia/jolokia-agent-parent/1.0.2/jolokia-agent-parent-1.0.2.pom
+2015-03-09 02:22:18,590 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jolokia/jolokia/1.0.2/jolokia-1.0.2.pom
+2015-03-09 02:22:19,096 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jolokia/jolokia/1.0.2/jolokia-1.0.2.pom
+2015-03-09 02:22:19,285 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.pom
+2015-03-09 02:22:19,633 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.pom
+2015-03-09 02:22:19,888 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jolokia/jolokia-jsr160/1.0.2/jolokia-jsr160-1.0.2.pom
+2015-03-09 02:22:20,468 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jolokia/jolokia-jsr160/1.0.2/jolokia-jsr160-1.0.2.pom
+2015-03-09 02:22:20,809 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/parallelj/parallelj-ssh-publickey/1.4.1/parallelj-ssh-publickey-1.4.1.pom
+2015-03-09 02:22:21,373 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/parallelj/parallelj-ssh-publickey/1.4.1/parallelj-ssh-publickey-1.4.1.pom
+2015-03-09 02:22:21,684 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/parallelj/parallelj-extensions/1.4.1/parallelj-extensions-1.4.1.pom
+2015-03-09 02:22:22,228 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/parallelj/parallelj-extensions/1.4.1/parallelj-extensions-1.4.1.pom
+2015-03-09 02:22:22,775 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/parallelj/parallelj-ssh/1.4.1/parallelj-ssh-1.4.1.pom
+2015-03-09 02:22:23,319 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/parallelj/parallelj-ssh/1.4.1/parallelj-ssh-1.4.1.pom
+2015-03-09 02:22:23,498 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/bouncycastle/bcprov-jdk15/140/bcprov-jdk15-140.pom
+2015-03-09 02:22:23,859 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/bouncycastle/bcprov-jdk15/140/bcprov-jdk15-140.pom
+2015-03-09 02:22:24,058 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/junit/junit/4.8.1/junit-4.8.1.jar
+2015-03-09 02:22:24,949 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/junit/junit/4.8.1/junit-4.8.1.jar
+2015-03-09 02:22:25,274 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/parallelj/parallelj-launching/1.4.1/parallelj-launching-1.4.1.jar
+2015-03-09 02:22:25,992 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/parallelj/parallelj-launching/1.4.1/parallelj-launching-1.4.1.jar
+2015-03-09 02:22:26,163 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar
+2015-03-09 02:22:26,553 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar
+2015-03-09 02:22:26,727 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/aspectj/aspectjrt/1.7.3/aspectjrt-1.7.3.jar
+2015-03-09 02:22:27,246 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/aspectj/aspectjrt/1.7.3/aspectjrt-1.7.3.jar
+2015-03-09 02:22:27,552 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/parallelj/parallelj-jmx/1.4.1/parallelj-jmx-1.4.1.jar
+2015-03-09 02:22:28,105 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/parallelj/parallelj-jmx/1.4.1/parallelj-jmx-1.4.1.jar
+2015-03-09 02:22:28,520 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/parallelj/parallelj-core/1.4.1/parallelj-core-1.4.1.jar
+2015-03-09 02:22:29,269 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/parallelj/parallelj-core/1.4.1/parallelj-core-1.4.1.jar
+2015-03-09 02:22:29,444 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/google/code/gson/gson/1.6/gson-1.6.jar
+2015-03-09 02:22:29,860 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/google/code/gson/gson/1.6/gson-1.6.jar
+2015-03-09 02:22:30,031 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/sshd/sshd-core/0.6.0/sshd-core-0.6.0.jar
+2015-03-09 02:22:30,614 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/sshd/sshd-core/0.6.0/sshd-core-0.6.0.jar
+2015-03-09 02:22:30,951 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/mina/mina-core/2.0.2/mina-core-2.0.2.jar
+2015-03-09 02:22:31,914 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/mina/mina-core/2.0.2/mina-core-2.0.2.jar
+2015-03-09 02:22:32,086 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar
+2015-03-09 02:22:32,629 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar
+2015-03-09 02:22:32,800 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.jar
+2015-03-09 02:22:33,165 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.jar
+2015-03-09 02:22:33,426 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jolokia/jolokia-core/1.0.2/jolokia-core-1.0.2.jar
+2015-03-09 02:22:34,043 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jolokia/jolokia-core/1.0.2/jolokia-core-1.0.2.jar
+2015-03-09 02:22:34,214 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar
+2015-03-09 02:22:34,644 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar
+2015-03-09 02:22:34,916 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/jolokia/jolokia-jsr160/1.0.2/jolokia-jsr160-1.0.2.jar
+2015-03-09 02:22:35,470 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jolokia/jolokia-jsr160/1.0.2/jolokia-jsr160-1.0.2.jar
+2015-03-09 02:22:35,651 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.7.3/aspectjweaver-1.7.3.jar
+2015-03-09 02:22:37,207 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/aspectj/aspectjweaver/1.7.3/aspectjweaver-1.7.3.jar
+2015-03-09 02:22:37,378 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar
+2015-03-09 02:22:37,737 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.2/slf4j-api-1.7.2.jar
+2015-03-09 02:22:37,908 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.7.2/slf4j-log4j12-1.7.2.jar
+2015-03-09 02:22:38,259 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.7.2/slf4j-log4j12-1.7.2.jar
+2015-03-09 02:22:38,431 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.jar
+2015-03-09 02:22:39,045 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.jar
+2015-03-09 02:22:39,293 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/parallelj/parallelj-ssh-publickey/1.4.1/parallelj-ssh-publickey-1.4.1.jar
+2015-03-09 02:22:39,917 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/parallelj/parallelj-ssh-publickey/1.4.1/parallelj-ssh-publickey-1.4.1.jar
+2015-03-09 02:22:40,211 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/parallelj/parallelj-ssh/1.4.1/parallelj-ssh-1.4.1.jar
+2015-03-09 02:22:40,735 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/parallelj/parallelj-ssh/1.4.1/parallelj-ssh-1.4.1.jar
+2015-03-09 02:22:40,906 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/bouncycastle/bcprov-jdk15/140/bcprov-jdk15-140.jar
+2015-03-09 02:22:42,300 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/bouncycastle/bcprov-jdk15/140/bcprov-jdk15-140.jar
+2015-03-09 02:22:43,109 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+2015-03-09 02:22:44,161 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+2015-03-09 02:22:45,141 [Worker-11] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /java/src/main/java
+2015-03-09 02:22:45,141 [Worker-11] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /java/src/main/resources
+2015-03-09 02:22:45,142 [Worker-11] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /java/src/test/java
+2015-03-09 02:22:45,232 [Worker-28] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: digital.backend:java:0.0.1-SNAPSHOT @ I:\MyWorkspace\DigitalHum\java\pom.xml.
+2015-03-09 02:22:46,458 [Worker-11] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 57 sec
+2015-03-09 02:22:46,734 [Worker-28] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-eclipse-plugin/2.8/maven-eclipse-plugin-2.8.pom
+2015-03-09 02:22:47,088 [Worker-28] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-eclipse-plugin/2.8/maven-eclipse-plugin-2.8.pom
+2015-03-09 02:22:47,267 [Worker-28] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/17/maven-plugins-17.pom
+2015-03-09 02:22:47,621 [Worker-28] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/17/maven-plugins-17.pom
+2015-03-09 02:22:47,806 [Worker-28] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-eclipse-plugin/2.8/maven-eclipse-plugin-2.8.jar
+2015-03-09 02:22:48,238 [Worker-28] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-eclipse-plugin/2.8/maven-eclipse-plugin-2.8.jar
+2015-03-09 02:22:48,509 [Worker-28] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/googlecode/t7mp/maven-t7-plugin/0.9.7/maven-t7-plugin-0.9.7.pom
+2015-03-09 02:22:49,107 [Worker-28] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/googlecode/t7mp/maven-t7-plugin/0.9.7/maven-t7-plugin-0.9.7.pom
+2015-03-09 02:22:49,287 [Worker-28] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/4/oss-parent-4.pom
+2015-03-09 02:22:49,636 [Worker-28] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/4/oss-parent-4.pom
+2015-03-09 02:22:50,127 [Worker-28] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/com/googlecode/t7mp/maven-t7-plugin/0.9.7/maven-t7-plugin-0.9.7.jar
+2015-03-09 02:22:55,374 [Worker-28] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/com/googlecode/t7mp/maven-t7-plugin/0.9.7/maven-t7-plugin-0.9.7.jar
+2015-03-09 02:22:55,654 [Worker-28] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/mortbay/jetty/maven-jetty-plugin/6.1.10/maven-jetty-plugin-6.1.10.pom
+2015-03-09 02:22:56,004 [Worker-28] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/mortbay/jetty/maven-jetty-plugin/6.1.10/maven-jetty-plugin-6.1.10.pom
+2015-03-09 02:22:56,184 [Worker-28] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/mortbay/jetty/project/6.1.10/project-6.1.10.pom
+2015-03-09 02:22:56,538 [Worker-28] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/mortbay/jetty/project/6.1.10/project-6.1.10.pom
+2015-03-09 02:22:56,718 [Worker-28] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/mortbay/jetty/maven-jetty-plugin/6.1.10/maven-jetty-plugin-6.1.10.jar
+2015-03-09 02:22:57,083 [Worker-28] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/mortbay/jetty/maven-jetty-plugin/6.1.10/maven-jetty-plugin-6.1.10.jar
+2015-03-09 02:23:00,135 [Worker-27] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: digital.backend:java:0.0.1-SNAPSHOT @ I:\MyWorkspace\DigitalHum\java\pom.xml.
+2015-03-09 02:23:00,547 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 02:23:00,552 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2015-03-09 02:23:00,560 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 02:23:00,561 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\java\src\test\resources
+2015-03-09 02:25:29,874 [Worker-29] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' I:\MyWorkspace\DigitalHum\backend\pom.xml
+2015-03-09 02:25:30,221 [Worker-29] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.digital:backend:0.0.1-SNAPSHOT @ I:\MyWorkspace\DigitalHum\backend\pom.xml.
+2015-03-09 02:25:30,391 [Worker-29] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /backend/src/main/java
+2015-03-09 02:25:30,391 [Worker-29] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /backend/src/main/resources
+2015-03-09 02:25:30,392 [Worker-29] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /backend/src/test/java
+2015-03-09 02:25:31,609 [Worker-29] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2015-03-09 02:25:31,850 [Worker-29] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.digital:backend:0.0.1-SNAPSHOT @ I:\MyWorkspace\DigitalHum\backend\pom.xml.
+2015-03-09 02:25:32,001 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 02:25:32,002 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-09 02:25:32,003 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 02:25:32,003 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\backend\src\test\resources
+2015-03-09 02:25:32,534 [Worker-35] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.digital:backend:0.0.1-SNAPSHOT @ I:\MyWorkspace\DigitalHum\backend\pom.xml.
+2015-03-09 02:25:33,178 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 02:25:33,180 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-09 02:25:33,181 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 02:25:33,182 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\backend\src\test\resources
+2015-03-09 02:28:48,527 [Worker-33] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' I:\MyWorkspace\DigitalHum\digital\pom.xml
+2015-03-09 02:28:48,605 [Worker-33] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com:digital:0.0.1-SNAPSHOT @ I:\MyWorkspace\DigitalHum\digital\pom.xml.
+2015-03-09 02:28:48,699 [Worker-33] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /digital/src/main/java
+2015-03-09 02:28:48,699 [Worker-33] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /digital/src/main/resources
+2015-03-09 02:28:48,699 [Worker-33] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /digital/src/test/java
+2015-03-09 02:28:49,978 [Worker-33] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2015-03-09 02:28:50,183 [Worker-39] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com:digital:0.0.1-SNAPSHOT @ I:\MyWorkspace\DigitalHum\digital\pom.xml.
+2015-03-09 02:28:50,323 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 02:28:50,323 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-09 02:28:50,323 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 02:28:50,323 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-09 02:28:51,056 [Worker-35] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com:digital:0.0.1-SNAPSHOT @ I:\MyWorkspace\DigitalHum\digital\pom.xml.
+2015-03-09 02:28:51,446 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 02:28:51,446 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-09 02:28:51,446 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 02:28:51,446 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-09 02:31:45,228 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 02:31:45,228 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-09 02:31:45,229 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 02:31:45,229 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-09 02:32:04,487 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 02:32:04,489 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-09 02:32:04,490 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 02:32:04,490 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-09 02:33:45,020 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 02:33:45,021 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-09 02:33:45,023 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 02:33:45,023 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-09 02:33:52,645 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 02:33:52,645 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-09 02:33:52,646 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 02:33:52,647 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-09 02:33:58,418 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 02:33:58,419 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-09 02:33:58,420 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 02:33:58,420 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-09 02:34:10,310 [Worker-47] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com:digital:0.0.1-SNAPSHOT @ I:\MyWorkspace\DigitalHum\digital\pom.xml.
+2015-03-09 02:34:10,437 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 02:34:10,437 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-09 02:34:10,438 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 02:34:10,439 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-09 02:34:11,521 [Worker-35] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com:digital:0.0.1-SNAPSHOT @ I:\MyWorkspace\DigitalHum\digital\pom.xml.
+2015-03-09 02:34:11,611 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 02:34:11,612 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-09 02:34:11,613 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 02:34:11,613 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-09 02:36:20,315 [Worker-48] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com:digital:0.0.1-SNAPSHOT @ I:\MyWorkspace\DigitalHum\digital\pom.xml.
+2015-03-09 02:36:22,459 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 02:36:22,460 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-09 02:36:22,461 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 02:36:22,461 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-09 02:36:22,461 [Worker-53] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of digital
+2015-03-09 02:36:22,465 [Worker-53] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for digital
+2015-03-09 02:36:22,554 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 02:45:51,634 [Worker-55] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com:digital:0.0.1-SNAPSHOT @ I:\MyWorkspace\DigitalHum\digital\pom.xml.
+2015-03-09 02:52:00,478 [Worker-68] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/proxool/proxool/0.8.3/proxool-0.8.3.pom
+2015-03-09 02:52:00,837 [Worker-68] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/proxool/proxool/0.8.3/proxool-0.8.3.pom
+2015-03-09 02:52:00,884 [Worker-70] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com:digital:0.0.1-SNAPSHOT @ I:\MyWorkspace\DigitalHum\digital\pom.xml.
+2015-03-09 02:52:01,024 [Worker-68] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/proxool/proxool/0.8.3/proxool-0.8.3.jar
+2015-03-09 02:52:02,756 [Worker-68] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/proxool/proxool/0.8.3/proxool-0.8.3.jar
+2015-03-09 02:52:03,021 [Worker-64] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com:digital:0.0.1-SNAPSHOT @ I:\MyWorkspace\DigitalHum\digital\pom.xml.
+2015-03-09 02:52:03,130 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 02:52:03,130 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-09 02:52:03,130 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 02:52:03,130 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-09 02:52:03,130 [Worker-64] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of digital
+2015-03-09 02:52:03,130 [Worker-64] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for digital
+2015-03-09 02:52:03,146 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 02:52:04,194 [Worker-69] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com:digital:0.0.1-SNAPSHOT @ I:\MyWorkspace\DigitalHum\digital\pom.xml.
+2015-03-09 03:13:51,918 [Worker-84] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/servlets/com/cos/05Nov2002/cos-05Nov2002.pom
+2015-03-09 03:13:52,305 [Worker-84] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/servlets/com/cos/05Nov2002/cos-05Nov2002.pom
+2015-03-09 03:13:52,482 [Worker-81] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com:digital:0.0.1-SNAPSHOT @ I:\MyWorkspace\DigitalHum\digital\pom.xml.
+2015-03-09 03:13:52,511 [Worker-84] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/servlets/com/cos/05Nov2002/cos-05Nov2002.jar
+2015-03-09 03:13:53,291 [Worker-84] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/servlets/com/cos/05Nov2002/cos-05Nov2002.jar
+2015-03-09 03:13:53,512 [Worker-85] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com:digital:0.0.1-SNAPSHOT @ I:\MyWorkspace\DigitalHum\digital\pom.xml.
+2015-03-09 03:13:53,642 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 03:13:53,643 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-09 03:13:53,644 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 03:13:53,645 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-09 03:13:53,645 [Worker-85] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of digital
+2015-03-09 03:13:53,645 [Worker-85] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for digital
+2015-03-09 03:13:53,657 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 03:13:54,759 [Worker-86] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com:digital:0.0.1-SNAPSHOT @ I:\MyWorkspace\DigitalHum\digital\pom.xml.
+2015-03-09 03:19:51,650 [Worker-93] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com:digital:0.0.1-SNAPSHOT @ I:\MyWorkspace\DigitalHum\digital\pom.xml.
+2015-03-09 04:03:07,432 [Worker-127] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 04:03:07,433 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-09 04:03:07,435 [Worker-127] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 04:03:07,435 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-09 04:03:07,435 [Worker-127] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of digital
+2015-03-09 04:03:07,435 [Worker-127] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for digital
+2015-03-09 04:03:07,447 [Worker-127] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 04:05:39,009 [Worker-128] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com:digital:0.0.1-SNAPSHOT @ I:\MyWorkspace\DigitalHum\digital\pom.xml.
+2015-03-09 04:05:39,697 [Worker-128] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/jstl/jstl/1.2/jstl-1.2.pom
+2015-03-09 04:05:40,083 [Worker-128] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/jstl/jstl/1.2/jstl-1.2.pom
+2015-03-09 04:05:40,315 [Worker-128] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/jstl/jstl/1.2/jstl-1.2.jar
+2015-03-09 04:05:42,074 [Worker-128] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/jstl/jstl/1.2/jstl-1.2.jar
+2015-03-09 04:06:00,637 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 04:06:00,638 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-09 04:06:00,639 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 04:06:00,639 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-09 04:06:00,639 [Worker-129] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of digital
+2015-03-09 04:06:00,639 [Worker-129] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for digital
+2015-03-09 04:06:00,642 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 04:12:18,100 [Worker-137] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 04:12:18,116 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-09 04:12:18,116 [Worker-137] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 04:12:18,116 [Worker-137] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-09 04:23:08,942 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 04:23:08,942 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-09 04:23:08,942 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 04:23:08,942 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-09 04:25:37,215 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 04:25:37,215 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-09 04:25:37,215 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 04:25:37,215 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-09 04:26:56,260 [Worker-143] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 04:26:56,260 [Worker-143] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-09 04:26:56,260 [Worker-143] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 04:26:56,260 [Worker-143] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-09 04:27:25,096 [Worker-143] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 04:27:25,096 [Worker-143] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-09 04:27:25,096 [Worker-143] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 04:27:25,096 [Worker-143] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-09 22:04:38,085 [Worker-422] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 22:04:38,085 [Worker-422] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-09 22:04:38,101 [Worker-422] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 22:04:38,101 [Worker-422] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-09 22:05:44,692 [Worker-411] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 22:05:44,692 [Worker-411] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-09 22:05:44,707 [Worker-411] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 22:05:44,707 [Worker-411] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-09 22:06:06,113 [Worker-419] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 22:06:06,113 [Worker-419] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-09 22:06:06,128 [Worker-419] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 22:06:06,128 [Worker-419] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-09 22:10:34,309 [Worker-426] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 22:10:34,309 [Worker-426] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-09 22:10:34,309 [Worker-426] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 22:10:34,309 [Worker-426] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-09 23:00:30,046 [Worker-448] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 23:00:30,046 [Worker-448] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-09 23:00:30,046 [Worker-448] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-09 23:00:30,046 [Worker-448] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-11 03:00:55,274 [Worker-1399] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-11 03:00:55,274 [Worker-1399] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-11 03:00:55,274 [Worker-1399] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-11 03:00:55,274 [Worker-1399] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-11 03:02:46,563 [Worker-1418] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for digital
+2015-03-11 03:02:49,966 [Worker-1414] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-11 03:02:49,966 [Worker-1414] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-11 03:02:49,966 [Worker-1414] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-11 03:02:49,966 [Worker-1414] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-16 02:18:17,438 [Worker-4208] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com:digital:0.0.1-SNAPSHOT @ I:\MyWorkspace\DigitalHum\digital\pom.xml.
+2015-03-16 02:18:18,077 [Worker-4208] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom
+2015-03-16 02:18:18,405 [Worker-4208] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom
+2015-03-16 02:18:18,576 [Worker-4208] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.pom
+2015-03-16 02:18:19,233 [Worker-4208] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.pom
+2015-03-16 02:18:19,436 [Worker-4208] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar
+2015-03-16 02:18:20,264 [Worker-4208] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar
+2015-03-16 02:18:25,428 [Worker-4204] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-16 02:18:25,428 [Worker-4204] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-16 02:18:25,428 [Worker-4204] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-16 02:18:25,428 [Worker-4204] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-16 02:18:25,428 [Worker-4204] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of digital
+2015-03-16 02:18:25,428 [Worker-4204] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for digital
+2015-03-16 02:18:25,553 [Worker-4204] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-16 02:28:22,765 [Worker-4214] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-16 02:28:22,781 [Worker-4214] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-16 02:28:22,782 [Worker-4214] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-16 02:28:22,782 [Worker-4214] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-16 02:28:27,311 [Worker-4211] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-16 02:28:27,311 [Worker-4211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-16 02:28:27,311 [Worker-4211] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-16 02:28:27,311 [Worker-4211] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-17 01:14:19,817 [Worker-4665] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 01:14:19,817 [Worker-4665] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-17 01:14:19,817 [Worker-4665] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 01:14:19,817 [Worker-4665] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-17 01:28:32,772 [Worker-4678] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 01:28:32,773 [Worker-4678] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-17 01:28:32,775 [Worker-4678] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 01:28:32,776 [Worker-4678] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-17 01:29:40,710 [Worker-4686] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 01:29:40,710 [Worker-4686] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-17 01:29:40,710 [Worker-4686] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 01:29:40,710 [Worker-4686] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-17 01:36:43,661 [Worker-4678] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 01:36:43,661 [Worker-4678] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-17 01:36:43,661 [Worker-4678] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 01:36:43,661 [Worker-4678] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-17 01:49:06,795 [Worker-4697] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 01:49:06,797 [Worker-4697] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-17 01:49:06,798 [Worker-4697] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 01:49:06,799 [Worker-4697] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-17 01:59:40,422 [Worker-4703] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 01:59:40,424 [Worker-4703] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-17 01:59:40,425 [Worker-4703] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 01:59:40,426 [Worker-4703] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-17 02:11:12,431 [Worker-4719] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 02:11:12,432 [Worker-4719] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-17 02:11:12,434 [Worker-4719] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 02:11:12,434 [Worker-4719] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-17 02:14:21,788 [Worker-4725] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 02:14:21,790 [Worker-4725] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-17 02:14:21,791 [Worker-4725] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 02:14:21,791 [Worker-4725] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-17 02:34:58,838 [Worker-4736] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 02:34:58,839 [Worker-4736] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-17 02:34:58,842 [Worker-4736] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 02:34:58,842 [Worker-4736] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-17 02:36:14,863 [Worker-4738] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 02:36:14,864 [Worker-4738] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-17 02:36:14,865 [Worker-4738] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 02:36:14,865 [Worker-4738] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-17 02:36:41,389 [Worker-4735] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 02:36:41,390 [Worker-4735] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-17 02:36:41,392 [Worker-4735] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 02:36:41,392 [Worker-4735] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-17 03:22:07,660 [Worker-4773] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 03:22:07,663 [Worker-4773] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-17 03:22:07,666 [Worker-4773] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 03:22:07,666 [Worker-4773] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-17 03:32:20,561 [Worker-4787] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 03:32:20,563 [Worker-4787] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-17 03:32:20,565 [Worker-4787] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 03:32:20,565 [Worker-4787] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-17 03:33:24,518 [Worker-4779] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 03:33:24,518 [Worker-4779] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-17 03:33:24,519 [Worker-4779] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 03:33:24,520 [Worker-4779] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-17 03:43:51,399 [Worker-4797] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 03:43:51,400 [Worker-4797] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-17 03:43:51,402 [Worker-4797] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 03:43:51,403 [Worker-4797] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-17 03:47:19,078 [Worker-4803] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 03:47:19,079 [Worker-4803] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-17 03:47:19,081 [Worker-4803] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 03:47:19,081 [Worker-4803] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-17 21:43:11,623 [Worker-5159] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 21:43:11,624 [Worker-5159] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-17 21:43:11,625 [Worker-5159] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 21:43:11,626 [Worker-5159] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-17 21:45:47,663 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com:digital:0.0.1-SNAPSHOT @ I:\MyWorkspace\DigitalHum\digital\pom.xml.
+2015-03-17 21:46:06,458 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 21:46:06,464 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-17 21:46:06,471 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 21:46:06,471 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-17 21:46:08,654 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com:digital:0.0.1-SNAPSHOT @ I:\MyWorkspace\DigitalHum\digital\pom.xml.
+2015-03-17 21:52:49,176 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 21:52:49,181 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-17 21:52:49,183 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 21:52:49,184 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-17 22:56:20,332 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 22:56:20,334 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-17 22:56:20,335 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 22:56:20,336 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-17 23:00:55,323 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 23:00:55,324 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-17 23:00:55,325 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 23:00:55,325 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-17 23:03:36,132 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 23:03:36,133 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-17 23:03:36,135 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 23:03:36,135 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-17 23:11:04,802 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 23:11:04,804 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-17 23:11:04,805 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 23:11:04,806 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-17 23:25:34,105 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 23:25:34,106 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-17 23:25:34,108 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-17 23:25:34,108 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-18 00:39:11,450 [Worker-108] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-18 00:39:11,451 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-18 00:39:11,453 [Worker-108] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-18 00:39:11,454 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-18 00:42:08,732 [Worker-73] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for digital
+2015-03-18 00:42:11,752 [Worker-106] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-18 00:42:11,753 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-18 00:42:11,757 [Worker-106] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-18 00:42:11,758 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-18 00:54:52,649 [Worker-123] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-18 00:54:52,650 [Worker-123] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-18 00:54:52,652 [Worker-123] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-18 00:54:52,652 [Worker-123] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-18 00:57:22,311 [Worker-130] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for digital
+2015-03-18 00:57:24,354 [Worker-127] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-18 00:57:24,355 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-18 00:57:24,357 [Worker-127] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-18 00:57:24,358 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-18 22:25:58,638 [Worker-751] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for digital
+2015-03-18 22:26:01,339 [Worker-751] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-18 22:26:01,339 [Worker-751] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-18 22:26:01,339 [Worker-751] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-18 22:26:01,339 [Worker-751] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-18 22:27:34,556 [Worker-747] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for digital
+2015-03-18 22:27:36,615 [Worker-751] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-18 22:27:36,615 [Worker-751] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-18 22:27:36,631 [Worker-751] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-18 22:27:36,631 [Worker-751] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-19 01:38:44,541 [Worker-838] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for digital
+2015-03-19 01:38:48,669 [Worker-854] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-19 01:38:48,669 [Worker-854] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-19 01:38:48,669 [Worker-854] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-19 01:38:48,669 [Worker-854] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-21 18:29:13,651 [Worker-2247] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 18:29:13,653 [Worker-2247] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-21 18:29:13,654 [Worker-2247] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 18:29:13,655 [Worker-2247] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-21 21:59:06,871 [Worker-2348] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for digital
+2015-03-21 21:59:09,385 [Worker-2348] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 21:59:09,386 [Worker-2348] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-21 21:59:09,389 [Worker-2348] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 21:59:09,389 [Worker-2348] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-21 22:03:42,131 [Worker-2355] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for digital
+2015-03-21 22:03:43,908 [Worker-2353] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 22:03:43,909 [Worker-2353] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-21 22:03:43,911 [Worker-2353] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 22:03:43,912 [Worker-2353] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-21 22:04:38,571 [Worker-2352] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 22:04:38,572 [Worker-2352] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-21 22:04:38,574 [Worker-2352] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 22:04:38,574 [Worker-2352] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-21 22:25:47,198 [Worker-2363] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for digital
+2015-03-21 22:25:49,312 [Worker-2364] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 22:25:49,313 [Worker-2364] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-21 22:25:49,315 [Worker-2364] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 22:25:49,315 [Worker-2364] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-21 22:28:02,747 [Worker-2364] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com:digital:0.0.1-SNAPSHOT @ I:\MyWorkspace\DigitalHum\digital\pom.xml.
+2015-03-21 22:28:03,889 [Worker-2364] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.pom
+2015-03-21 22:28:04,335 [Worker-2364] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.pom
+2015-03-21 22:28:04,586 [Worker-2364] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/12/commons-parent-12.pom
+2015-03-21 22:28:05,276 [Worker-2364] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/12/commons-parent-12.pom
+2015-03-21 22:28:05,515 [Worker-2364] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.pom
+2015-03-21 22:28:05,990 [Worker-2364] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.pom
+2015-03-21 22:28:06,259 [Worker-2364] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar
+2015-03-21 22:28:07,682 [Worker-2364] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar
+2015-03-21 22:28:07,869 [Worker-2371] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com:digital:0.0.1-SNAPSHOT @ I:\MyWorkspace\DigitalHum\digital\pom.xml.
+2015-03-21 22:28:07,918 [Worker-2364] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar
+2015-03-21 22:28:08,638 [Worker-2364] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar
+2015-03-21 22:28:09,766 [Worker-2371] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 22:28:09,766 [Worker-2371] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-21 22:28:09,766 [Worker-2371] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 22:28:09,766 [Worker-2371] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-21 22:28:09,766 [Worker-2371] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of digital
+2015-03-21 22:28:09,766 [Worker-2371] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for digital
+2015-03-21 22:28:09,781 [Worker-2371] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 22:28:10,837 [Worker-2376] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com:digital:0.0.1-SNAPSHOT @ I:\MyWorkspace\DigitalHum\digital\pom.xml.
+2015-03-21 22:35:08,002 [Worker-2374] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 22:35:08,003 [Worker-2374] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-21 22:35:08,005 [Worker-2374] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 22:35:08,006 [Worker-2374] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-21 22:36:12,895 [Worker-2372] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 22:36:12,896 [Worker-2372] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-21 22:36:12,896 [Worker-2372] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 22:36:12,896 [Worker-2372] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-21 22:37:01,127 [Worker-2379] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 22:37:01,127 [Worker-2379] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-21 22:37:01,127 [Worker-2379] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 22:37:01,127 [Worker-2379] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-21 22:37:52,816 [Worker-2380] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 22:37:52,816 [Worker-2380] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-21 22:37:52,816 [Worker-2380] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 22:37:52,832 [Worker-2380] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-21 22:39:27,242 [Worker-2384] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 22:39:27,242 [Worker-2384] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-21 22:39:27,244 [Worker-2384] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 22:39:27,244 [Worker-2384] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-21 22:54:13,553 [Worker-2396] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 22:54:13,553 [Worker-2396] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-21 22:54:13,553 [Worker-2396] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 22:54:13,553 [Worker-2396] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-21 22:55:13,987 [Worker-2397] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 22:55:13,987 [Worker-2397] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-21 22:55:13,987 [Worker-2397] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 22:55:13,987 [Worker-2397] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-21 23:00:55,621 [Worker-2401] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 23:00:55,621 [Worker-2401] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-21 23:00:55,636 [Worker-2401] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 23:00:55,636 [Worker-2401] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-21 23:04:05,834 [Worker-2400] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 23:04:05,834 [Worker-2400] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-21 23:04:05,834 [Worker-2400] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 23:04:05,834 [Worker-2400] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-21 23:05:12,352 [Worker-2404] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for digital
+2015-03-21 23:05:15,508 [Worker-2407] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 23:05:15,508 [Worker-2407] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-21 23:05:15,508 [Worker-2407] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 23:05:15,508 [Worker-2407] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-21 23:09:51,509 [Worker-2411] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 23:09:51,509 [Worker-2411] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-21 23:09:51,510 [Worker-2411] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 23:09:51,511 [Worker-2411] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-21 23:24:52,436 [Worker-2415] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 23:24:52,436 [Worker-2415] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-21 23:24:52,436 [Worker-2415] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 23:24:52,436 [Worker-2415] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-21 23:24:54,758 [Worker-2415] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for digital
+2015-03-21 23:24:56,564 [Worker-2417] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 23:24:56,564 [Worker-2417] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-21 23:24:56,580 [Worker-2417] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 23:24:56,580 [Worker-2417] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-21 23:36:26,316 [Worker-2416] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 23:36:26,316 [Worker-2416] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-21 23:36:26,316 [Worker-2416] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 23:36:26,316 [Worker-2416] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-21 23:39:47,773 [Worker-2434] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 23:39:47,774 [Worker-2434] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-21 23:39:47,775 [Worker-2434] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 23:39:47,776 [Worker-2434] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-21 23:43:49,101 [Worker-2444] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 23:43:49,102 [Worker-2444] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-21 23:43:49,104 [Worker-2444] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 23:43:49,104 [Worker-2444] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-21 23:46:34,717 [Worker-2451] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 23:46:34,717 [Worker-2451] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-21 23:46:34,719 [Worker-2451] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 23:46:34,719 [Worker-2451] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-21 23:48:00,864 [Worker-2436] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 23:48:00,864 [Worker-2436] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-21 23:48:00,866 [Worker-2436] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-21 23:48:00,867 [Worker-2436] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-22 00:39:25,183 [Worker-2436] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 00:39:25,183 [Worker-2436] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-22 00:39:25,184 [Worker-2436] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 00:39:25,185 [Worker-2436] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-22 00:57:53,463 [Worker-2488] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 00:57:53,463 [Worker-2488] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-22 00:57:53,463 [Worker-2488] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 00:57:53,463 [Worker-2488] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-22 00:59:11,304 [Worker-2490] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 00:59:11,304 [Worker-2490] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-22 00:59:11,304 [Worker-2490] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 00:59:11,304 [Worker-2490] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-22 01:00:50,071 [Worker-2486] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 01:00:50,071 [Worker-2486] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-22 01:00:50,071 [Worker-2486] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 01:00:50,071 [Worker-2486] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-22 01:03:29,282 [Worker-2493] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 01:03:29,282 [Worker-2493] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-22 01:03:29,298 [Worker-2493] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 01:03:29,298 [Worker-2493] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-22 01:05:41,532 [Worker-2492] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 01:05:41,532 [Worker-2492] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-22 01:05:41,532 [Worker-2492] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 01:05:41,532 [Worker-2492] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-22 01:08:58,623 [Worker-2498] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 01:08:58,623 [Worker-2498] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-22 01:08:58,623 [Worker-2498] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 01:08:58,623 [Worker-2498] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-22 01:26:38,433 [Worker-2510] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 01:26:38,433 [Worker-2510] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-22 01:26:38,433 [Worker-2510] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 01:26:38,433 [Worker-2510] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-22 01:27:07,587 [Worker-2516] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for digital
+2015-03-22 01:27:09,473 [Worker-2504] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 01:27:09,473 [Worker-2504] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-22 01:27:09,473 [Worker-2504] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 01:27:09,473 [Worker-2504] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-22 01:44:31,977 [Worker-2525] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 01:44:31,980 [Worker-2525] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-22 01:44:31,981 [Worker-2525] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 01:44:31,982 [Worker-2525] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-22 15:03:15,207 [Worker-2791] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 15:03:15,222 [Worker-2791] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-22 15:03:15,222 [Worker-2791] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 15:03:15,222 [Worker-2791] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-22 15:04:49,540 [Worker-2793] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 15:04:49,540 [Worker-2793] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-22 15:04:49,540 [Worker-2793] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 15:04:49,540 [Worker-2793] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-22 15:28:40,680 [Worker-2793] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 15:28:40,680 [Worker-2793] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-22 15:28:40,680 [Worker-2793] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 15:28:40,680 [Worker-2793] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-22 15:46:27,260 [Worker-2823] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 15:46:27,261 [Worker-2823] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-22 15:46:27,263 [Worker-2823] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 15:46:27,264 [Worker-2823] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-22 15:47:42,307 [Worker-2826] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 15:47:42,309 [Worker-2826] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-22 15:47:42,310 [Worker-2826] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 15:47:42,310 [Worker-2826] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-22 17:27:26,014 [Worker-2875] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 17:27:26,014 [Worker-2875] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-22 17:27:26,014 [Worker-2875] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 17:27:26,014 [Worker-2875] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-22 17:29:04,596 [Worker-2897] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for digital
+2015-03-22 17:29:07,079 [Worker-2875] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 17:29:07,079 [Worker-2875] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-22 17:29:07,079 [Worker-2875] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 17:29:07,079 [Worker-2875] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-22 17:34:49,119 [Worker-2897] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 17:34:49,119 [Worker-2897] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-22 17:34:49,119 [Worker-2897] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 17:34:49,135 [Worker-2897] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-22 17:35:53,765 [Worker-2900] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 17:35:53,765 [Worker-2900] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-22 17:35:53,765 [Worker-2900] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 17:35:53,765 [Worker-2900] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-22 17:55:10,978 [Worker-2915] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 17:55:10,978 [Worker-2915] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-22 17:55:10,978 [Worker-2915] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 17:55:10,978 [Worker-2915] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-22 22:16:27,817 [Worker-3013] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 22:16:27,818 [Worker-3013] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-22 22:16:27,820 [Worker-3013] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 22:16:27,820 [Worker-3013] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-22 22:21:16,146 [Worker-2899] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for digital
+2015-03-22 22:21:20,034 [Worker-3022] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 22:21:20,034 [Worker-3022] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-22 22:21:20,034 [Worker-3022] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 22:21:20,034 [Worker-3022] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-22 22:25:43,574 [Worker-3019] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 22:25:43,574 [Worker-3019] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-22 22:25:43,574 [Worker-3019] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 22:25:43,574 [Worker-3019] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-22 22:26:58,353 [Worker-2899] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for digital
+2015-03-22 22:27:00,590 [Worker-3025] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 22:27:00,590 [Worker-3025] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-22 22:27:00,590 [Worker-3025] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 22:27:00,590 [Worker-3025] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-22 22:41:59,998 [Worker-3038] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 22:41:59,998 [Worker-3038] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-22 22:42:00,014 [Worker-3038] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 22:42:00,014 [Worker-3038] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-22 22:52:21,249 [Worker-3050] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 22:52:21,249 [Worker-3050] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-22 22:52:21,249 [Worker-3050] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-22 22:52:21,249 [Worker-3050] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-23 01:51:47,510 [Worker-3144] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-23 01:51:47,511 [Worker-3144] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-23 01:51:47,514 [Worker-3144] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-23 01:51:47,514 [Worker-3144] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-23 03:36:32,625 [Worker-3187] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-23 03:36:32,625 [Worker-3187] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-23 03:36:32,625 [Worker-3187] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-23 03:36:32,625 [Worker-3187] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-23 03:38:27,960 [Worker-3180] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for digital
+2015-03-23 03:38:30,395 [Worker-3194] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-23 03:38:30,410 [Worker-3194] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-23 03:38:30,410 [Worker-3194] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-23 03:38:30,410 [Worker-3194] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-23 04:10:38,379 [Worker-3218] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-23 04:10:38,379 [Worker-3218] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-23 04:10:38,379 [Worker-3218] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-23 04:10:38,395 [Worker-3218] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-23 04:12:35,655 [Worker-3203] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-23 04:12:35,655 [Worker-3203] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-23 04:12:35,655 [Worker-3203] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-23 04:12:35,655 [Worker-3203] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-23 04:13:45,174 [Worker-3211] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-23 04:13:45,174 [Worker-3211] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-23 04:13:45,174 [Worker-3211] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-23 04:13:45,174 [Worker-3211] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-23 04:15:31,404 [Worker-3216] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-23 04:15:31,404 [Worker-3216] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-23 04:15:31,404 [Worker-3216] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-23 04:15:31,404 [Worker-3216] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-24 02:15:41,024 [Worker-3609] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-24 02:15:41,024 [Worker-3609] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-24 02:15:41,040 [Worker-3609] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-24 02:15:41,040 [Worker-3609] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-24 02:19:06,769 [Worker-3613] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for digital
+2015-03-24 02:19:09,812 [Worker-3618] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-24 02:19:09,812 [Worker-3618] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-24 02:19:09,812 [Worker-3618] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-24 02:19:09,812 [Worker-3618] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-24 02:31:49,436 [Worker-3633] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-24 02:31:49,436 [Worker-3633] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-24 02:31:49,436 [Worker-3633] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-24 02:31:49,436 [Worker-3633] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources
+2015-03-24 03:21:34,181 [Worker-3661] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-24 03:21:34,181 [Worker-3661] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-24 03:21:34,181 [Worker-3661] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-24 03:21:34,181 [Worker-3661] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory I:\MyWorkspace\DigitalHum\digital\src\test\resources

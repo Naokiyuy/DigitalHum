@@ -1,0 +1,36 @@
+function formCheck(obj){
+	//get all input field with type=text
+	var input_field = $(obj).find('input[formcheck="1"][type="text"]');
+	$(input_field).each(function(){
+		var content = $(this).val();
+		if(content == ''){
+			alert($(this).attr("errMsg"));
+			$(this).focus();
+			return false;
+		}
+	});
+	
+	//get textarea
+	var textarea = $(obj).find("textarea");
+	$(textarea).each(function(){
+		console.log($(this).attr("id"));
+		var content = $(this).text();
+		if(content == ''){
+			alert($(this).attr("errMsg"));
+			$(this).focus();
+			return false;
+		}
+	});
+	
+	//get input field with type=file
+	var file_field = $(obj).find('input[formcheck="1"][type="file"]');
+	$(file_field).each(function(){
+		console.log($(this).attr("id"));
+		var content = $(this).val();
+		if(content == ''){
+			alert($(this).attr("errMsg"));
+			$(this).focus();
+			return false;
+		}
+	});
+}

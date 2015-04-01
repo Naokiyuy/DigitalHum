@@ -1,0 +1,40 @@
+package com.digital.common.dao.breadcrumb;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+import com.digital.common.bean.breadcrumb.BreadCrumbBean;
+
+public class BreadCrumbDAO {
+	private static BreadCrumbDAO breadCrumbDAO = null;
+	private BreadCrumbDAO(){}
+	
+	public static synchronized BreadCrumbDAO getInstance(){
+		return (breadCrumbDAO == null) ? new BreadCrumbDAO() : breadCrumbDAO;
+	}
+	
+	public BreadCrumbBean getAllBreadByLevel(int langId, int level) throws Exception{
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		BreadCrumbBean bean = null;
+		
+		try{
+			String sql = "select * from digital_breadcrumb where breadcrumb_lang_id = ? and breadcrumb_level = ? ";
+			conn = DriverManager.getConnection("proxool.digital"); 
+			pstmt= conn.prepareStatement(sql);
+			pstmt.setInt(1, langId);
+			pstmt.setInt(2, level);
+			rs = pstmt.executeQuery();
+		}catch(Exception e){
+			e.printStackTrace();
+		}finally{
+			rs.close();
+			pstmt.close();
+			conn.close();
+		}
+		return bean;
+	}
+}

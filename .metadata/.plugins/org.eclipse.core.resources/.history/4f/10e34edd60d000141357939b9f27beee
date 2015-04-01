@@ -1,0 +1,49 @@
+package com.digital.backend.action.items.hotnews;
+
+import java.io.IOException;
+import java.util.ArrayList;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.digital.common.bean.breadcrumb.BreadCrumbBean;
+import com.digital.common.dao.breadcrumb.BreadCrumbDAO;
+import com.oreilly.servlet.ParameterParser;
+
+public class HotNewsNewAction extends HttpServlet{
+	private static final long serialVersionUID = 1L;
+
+	@Override
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		try {
+			processRequest(request, response);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		try {
+			processRequest(request, response);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	private void processRequest(HttpServletRequest request,
+			HttpServletResponse response) throws Exception{
+		ParameterParser parser = new ParameterParser(request);
+		
+		ArrayList<BreadCrumbBean> level1 = BreadCrumbDAO.getInstance().getAllBreadByLevel(1, 1);
+		
+		//ActionForwardUtil forwardUtil = new ActionForwardUtil();
+		//String url = forwardUtil.getForwardURL("digital.backend.index");
+		String url = "/backend/hotnews/hotnews-add.jsp";
+		getServletContext().getRequestDispatcher(url).forward(request, response);
+	}
+}

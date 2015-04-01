@@ -1,0 +1,17 @@
+package com.digital.backend.dao.hotnews;
+
+import com.digital.backend.bean.hotnews.HotNewsBean;
+
+public class HotNewsDAO {
+	private static HotNewsDAO hotNewsDAO;
+	
+	public HotNewsDAO(){}
+	
+	public synchronized static HotNewsDAO getInstance(){
+		return hotNewsDAO == null ? new HotNewsDAO() : hotNewsDAO;
+	}
+	
+	private void insertHotNews(HotNewsBean bean){
+		
+	}
+}

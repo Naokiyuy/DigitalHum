@@ -1,0 +1,5 @@
+package com.digital.backend.common.bean;
+
+public class DataBean {
+
+}

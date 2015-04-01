@@ -1,0 +1,5 @@
+package com.digital.backend.dao.researchresource;
+
+public class ResearchResourceDAO {
+
+}

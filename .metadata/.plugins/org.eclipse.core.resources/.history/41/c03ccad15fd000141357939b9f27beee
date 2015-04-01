@@ -1,0 +1,5 @@
+package com.digital.common.dao.breadcrumb;
+
+public class BreadCrumbDAO {
+
+}

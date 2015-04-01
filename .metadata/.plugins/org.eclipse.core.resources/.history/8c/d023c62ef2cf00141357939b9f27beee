@@ -1,0 +1,6 @@
+(function($){
+	var input_field = $('input[formcheck="1"]');
+	$(input_field).each(function(){
+		console.log($(this).attr("id"));
+	});
+})(jQuery);

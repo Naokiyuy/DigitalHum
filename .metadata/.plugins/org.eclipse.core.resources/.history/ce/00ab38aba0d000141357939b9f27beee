@@ -1,0 +1,60 @@
+package com.digital.backend.action.items.interPerspective;
+
+import java.io.IOException;
+import java.util.ArrayList;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.digital.backend.bean.hotnews.HotNewsBean;
+import com.digital.backend.dao.hotnews.HotNewsDAO;
+import com.digital.common.bean.breadcrumb.BreadCrumbBean;
+import com.digital.common.dao.breadcrumb.BreadCrumbDAO;
+import com.oreilly.servlet.ParameterParser;
+
+public class InterPerspectiveViewAction extends HttpServlet{
+	private static final long serialVersionUID = 1L;
+	
+	@Override
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		try {
+			processRequest(request, response);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		try {
+			processRequest(request, response);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	private void processRequest(HttpServletRequest request,
+			HttpServletResponse response) throws Exception{
+		ParameterParser parser = new ParameterParser(request);
+		int hotnews_id = parser.getIntParameter("hotnews_id", 0);
+		
+		ArrayList<HotNewsBean> list = new ArrayList<HotNewsBean>();
+		list = HotNewsDAO.getInstance().getHotNews(hotnews_id);
+		
+		ArrayList<BreadCrumbBean> level_one = BreadCrumbDAO.getInstance().getAllBreadByLevel(1);
+		ArrayList<BreadCrumbBean> level_two = BreadCrumbDAO.getInstance().getAllBreadByLevel(2);
+		ArrayList<BreadCrumbBean> level_three = BreadCrumbDAO.getInstance().getAllBreadByLevel(3);
+		
+		request.setAttribute("hotnewsList", list);
+		request.setAttribute("level_one", level_one);
+		request.setAttribute("level_two", level_two);
+		request.setAttribute("level_three", level_three);
+		
+		String url = "/backend/hotnews/hotnews-edit.jsp";
+		getServletContext().getRequestDispatcher(url).forward(request, response);
+	}
+}

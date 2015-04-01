@@ -1,0 +1,65 @@
+package com.digital.backend.action.items.common;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.digital.backend.common.items.ItemAction;
+import com.digital.backend.dao.hotnews.HotNewsDAO;
+import com.oreilly.servlet.ParameterParser;
+
+public class DataDelAction extends HttpServlet{
+	private static final long serialVersionUID = 1L;
+
+	@Override
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		try {
+			processRequest(request, response);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		try {
+			processRequest(request, response);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	private void processRequest(HttpServletRequest request,
+			HttpServletResponse response) throws Exception{
+		ParameterParser parser = new ParameterParser(request);
+		
+		try{
+			int id = parser.getIntParameter("id", 0);
+			String action = parser.getStringParameter("action", "");
+			
+			ItemAction itemAction = ItemAction.getAction(action);
+			if(id != 0){
+				switch(itemAction){
+					case hotnews:
+						HotNewsDAO.getInstance().delHotNewsById(id);
+						break;
+					case interperspective:
+						break;
+					default:
+						break;
+				}
+			}
+			request.setAttribute("action", action);
+			
+			String url = "/backend/item-list.do";
+			response.sendRedirect(url);
+		}catch(Exception e){
+			throw e;
+		}
+	}
+}

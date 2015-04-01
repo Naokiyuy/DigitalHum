@@ -1,0 +1,40 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="/backend/css/login/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	
+	<div class="login-form">
+		<div class="head">
+			<img src="images/mem2.jpg" alt=""/>			
+		</div>
+		<form method="post" action="/backend/j_spring_security_check">
+			<li>
+				<input name="j_username" type="text" class="text" value="USERNAME" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'USERNAME';}"/><a href="#" class=" icon user"></a>
+			</li>
+			<li>
+				<input name="j_password" type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" /><a href="#" class=" icon lock"></a>
+			</li>
+			<div class="p-container">
+				<input value="Login" type="submit" />
+				<div class="clear"> </div>
+			</div>
+		</form>
+	</div>
+	
+	
+	<br />
+	<c:if test="${param.status=='error'}">
+		<label style="color:red">Invalid username or password!!</label>
+	</c:if>
+	<c:if test="${param.status=='logout'}">
+		<label style="color:green">Logged out successfully!</label>
+	</c:if>
+</body>
+</html>

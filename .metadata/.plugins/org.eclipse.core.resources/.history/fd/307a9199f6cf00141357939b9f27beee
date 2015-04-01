@@ -1,0 +1,11 @@
+function formCheck(obj){
+	var input_field = $(obj).find('input[formcheck="1"][type="text"]');
+	$(input_field).each(function(){
+		var content = $(this).val();
+		if(content == ''){
+			alert($(this).attr("errMsg"));
+			$(this).focus();
+			return false;
+		}
+	});
+}

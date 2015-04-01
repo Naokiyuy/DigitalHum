@@ -1,0 +1,5 @@
+package com.digital.backend.bean.hotnews;
+
+public class HotNewsBean {
+
+}

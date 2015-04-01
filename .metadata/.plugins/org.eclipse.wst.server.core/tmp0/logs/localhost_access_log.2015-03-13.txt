@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [13/Mar/2015:02:21:15 +0800] "GET /backend/hotnews-add.do HTTP/1.1" 200 9696
+0:0:0:0:0:0:0:1 - - [13/Mar/2015:02:21:15 +0800] "GET /backend/css/hotnews/add.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [13/Mar/2015:02:23:58 +0800] "GET /backend/hotnews-add.do HTTP/1.1" 200 10147
+0:0:0:0:0:0:0:1 - - [13/Mar/2015:02:23:58 +0800] "GET /backend/css/hotnews/add.css HTTP/1.1" 304 -

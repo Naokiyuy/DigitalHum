@@ -1,0 +1,56 @@
+package com.digital.backend.action.items.hotnews;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.oreilly.servlet.ParameterParser;
+import com.oreilly.servlet.multipart.MultipartParser;
+import com.oreilly.servlet.multipart.Part;
+
+public class HotNewsAddAction extends HttpServlet{
+	private static final long serialVersionUID = 1L;
+
+	@Override
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		try {
+			processRequest(request, response);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		try {
+			processRequest(request, response);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	private void processRequest(HttpServletRequest request,
+			HttpServletResponse response) throws Exception{
+		//load all input field
+		MultipartParser parser = new MultipartParser(request, 10*1024*1024);
+		Part part;
+		String title_cht = String.valueOf(request.getAttribute("title_cht"));
+		String author_cht = String.valueOf(request.getAttribute("author_cht"));
+		//image
+		String link_1_cht = String.valueOf(request.getAttribute("link_1_cht"));
+		String link_2_cht = String.valueOf(request.getAttribute("link_2_cht"));
+		String link_3_cht = String.valueOf(request.getAttribute("link_3_cht"));
+		String subtitle_cht = String.valueOf(request.getAttribute("subtitle_cht"));
+		String description_cht = String.valueOf(request.getAttribute("description_cht"));
+		String createDate_cht = String.valueOf(request.getAttribute("createDate_cht"));
+		
+
+		String url = "/backend/hotnews/hotnews-list.jsp";
+		getServletContext().getRequestDispatcher(url).forward(request, response);
+	}
+}

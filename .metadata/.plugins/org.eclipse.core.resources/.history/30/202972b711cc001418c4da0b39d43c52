@@ -1,0 +1,93 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>[後台]最新消息</title>
+<link rel="stylesheet" type="text/css" href="/backend/css/hotnews/style.css">
+</head>
+<body>
+<jsp:include page="/backend/header/header.jsp"></jsp:include>
+<hr />
+<div class="item_title">最新消息</div>
+<div class="action_btn"><a class="query_btn" href="#">QUERY</a>&nbsp;<a class="add_btn" href="/backend/hotnews-new.do">ADD</a></div>
+<form action="">
+
+<div id="hotnews-list-table">
+	<div class="hotnews-list-tr">
+		<div class="hotnews-list-td"><span>#</span></div>
+		<div class="hotnews-list-td"><span>Name</span></div>
+		<div class="hotnews-list-td"><span>Requester</span></div>
+		<div class="hotnews-list-td"><span>Date</span></div>
+		<div class="hotnews-list-td"><span>Function</span></div>
+	</div>
+	<div class="hotnews-list-tr">
+		<div class="hotnews-list-td">1</div>
+		<div class="hotnews-list-td">2</div>
+		<div class="hotnews-list-td">3</div>
+		<div class="hotnews-list-td">4</div>
+		<div class="hotnews-list-td">5</div>
+	</div>
+	<div class="hotnews-list-tr">
+		<div class="hotnews-list-td">6</div>
+		<div class="hotnews-list-td">7</div>
+		<div class="hotnews-list-td">8</div>
+		<div class="hotnews-list-td">9</div>
+		<div class="hotnews-list-td">10</div>
+	</div>
+	<div class="hotnews-list-tr">
+		<div class="hotnews-list-td">6</div>
+		<div class="hotnews-list-td">7</div>
+		<div class="hotnews-list-td">8</div>
+		<div class="hotnews-list-td">9</div>
+		<div class="hotnews-list-td">10</div>
+	</div>
+	<div class="hotnews-list-tr">
+		<div class="hotnews-list-td">6</div>
+		<div class="hotnews-list-td">7</div>
+		<div class="hotnews-list-td">8</div>
+		<div class="hotnews-list-td">9</div>
+		<div class="hotnews-list-td">10</div>
+	</div>
+	<div class="hotnews-list-tr">
+		<div class="hotnews-list-td">6</div>
+		<div class="hotnews-list-td">7</div>
+		<div class="hotnews-list-td">8</div>
+		<div class="hotnews-list-td">9</div>
+		<div class="hotnews-list-td">10</div>
+	</div>
+	<div class="hotnews-list-tr">
+		<div class="hotnews-list-td">6</div>
+		<div class="hotnews-list-td">7</div>
+		<div class="hotnews-list-td">8</div>
+		<div class="hotnews-list-td">9</div>
+		<div class="hotnews-list-td">10</div>
+	</div>
+	<div class="hotnews-list-tr">
+		<div class="hotnews-list-td">6</div>
+		<div class="hotnews-list-td">7</div>
+		<div class="hotnews-list-td">8</div>
+		<div class="hotnews-list-td">9</div>
+		<div class="hotnews-list-td">10</div>
+	</div>
+	<div class="hotnews-list-tr">
+		<div class="hotnews-list-td">6</div>
+		<div class="hotnews-list-td">7</div>
+		<div class="hotnews-list-td">8</div>
+		<div class="hotnews-list-td">9</div>
+		<div class="hotnews-list-td">10</div>
+	</div>
+	<div class="hotnews-list-tr">
+		<div class="hotnews-list-td">6</div>
+		<div class="hotnews-list-td">7</div>
+		<div class="hotnews-list-td">8</div>
+		<div class="hotnews-list-td">9</div>
+		<div class="hotnews-list-td">10</div>
+	</div>
+</div>
+
+</form>
+<jsp:include page="/backend/footer/footer.jsp"></jsp:include>
+</body>
+</html>

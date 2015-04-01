@@ -1,0 +1,17 @@
+INDEX VERSION 1.127
+I:\MyWorkspace\DigitalHum\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1318804902.index
+\digital\src\main\java
+I:\MyWorkspace\DigitalHum\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1700210765.index
+\digital\src\main\resources
+I:\MyWorkspace\DigitalHum\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3268997172.index
+\digital\src\main\java
+I:\MyWorkspace\DigitalHum\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1025924772.index
+\backend\src\main\resources
+I:\MyWorkspace\DigitalHum\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2061049042.index
+\digital\src\main\java
+I:\MyWorkspace\DigitalHum\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1067744574.index
+\digital\src\main\java
+I:\MyWorkspace\DigitalHum\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2075217754.index
+\digital\src\main\java
+I:\MyWorkspace\DigitalHum\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1735277880.index
+\digital\src\main\java

@@ -1,0 +1,89 @@
+package com.digital.backend.action.items.hotnews;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.digital.backend.bean.hotnews.HotNewsBean;
+import com.digital.backend.dao.hotnews.HotNewsDAO;
+import com.oreilly.servlet.ParameterParser;
+import com.oreilly.servlet.multipart.MultipartParser;
+import com.oreilly.servlet.multipart.Part;
+
+public class HotNewsAddAction extends HttpServlet{
+	private static final long serialVersionUID = 1L;
+
+	@Override
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		try {
+			processRequest(request, response);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		try {
+			processRequest(request, response);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	private void processRequest(HttpServletRequest request,
+			HttpServletResponse response) throws Exception{
+		//load all input field
+		MultipartParser parser = new MultipartParser(request, 10*1024*1024);
+		Part part;
+		//CHT
+		String title_cht = String.valueOf(request.getAttribute("title_cht") == null ? "" : request.getAttribute("title_cht"));
+		String author_cht = String.valueOf(request.getAttribute("author_cht") == null ? "" : request.getAttribute("author_cht"));
+		//image
+		String link_1_cht = String.valueOf(request.getAttribute("link_1_cht") == null ? "" : request.getAttribute("link_1_cht"));
+		String link_2_cht = String.valueOf(request.getAttribute("link_2_cht") == null ? "" : request.getAttribute("link_2_cht"));
+		String link_3_cht = String.valueOf(request.getAttribute("link_3_cht") == null ? "" : request.getAttribute("link_3_cht"));
+		String subtitle_cht = String.valueOf(request.getAttribute("subtitle_cht") == null ? "" : request.getAttribute("subtitle_cht"));
+		String description_cht = String.valueOf(request.getAttribute("description_cht") == null ? "" : request.getAttribute("description_cht"));
+		int top_cht = Integer.parseInt(String.valueOf(request.getAttribute("top_cht") == null ? "" : request.getAttribute("top_cht")));
+		//ENU
+		String title_enu = String.valueOf(request.getAttribute("title_enu") == null ? "" : request.getAttribute("title_enu"));
+		String author_enu = String.valueOf(request.getAttribute("author_enu") == null ? "" : request.getAttribute("author_enu"));
+		//image
+		String link_1_enu = String.valueOf(request.getAttribute("link_1_enu") == null ? "" : request.getAttribute("link_1_enu"));
+		String link_2_enu = String.valueOf(request.getAttribute("link_2_enu") == null ? "" : request.getAttribute("link_2_enu"));
+		String link_3_enu = String.valueOf(request.getAttribute("link_3_enu") == null ? "" : request.getAttribute("link_3_enu"));
+		String subtitle_enu = String.valueOf(request.getAttribute("subtitle_enu") == null ? "" : request.getAttribute("subtitle_enu"));
+		String description_enu = String.valueOf(request.getAttribute("description_enu") == null ? "" : request.getAttribute("description_enu"));
+		int top_enu = Integer.parseInt(String.valueOf(request.getAttribute("top_enu") == null ? "" : request.getAttribute("top_enu")));
+		
+		//set up bean
+		HotNewsBean bean = new HotNewsBean();
+		bean.setTitle_cht(title_cht);
+		bean.setTitle_enu(title_enu);
+		bean.setAuthor_cht(author_cht);
+		bean.setAuthor_enu(author_enu);
+		bean.setLinkA_cht(link_1_cht);
+		bean.setLinkA_enu(link_1_enu);
+		bean.setLinkB_cht(link_2_cht);
+		bean.setLinkB_enu(link_2_enu);
+		bean.setLinkC_cht(link_3_cht);
+		bean.setLinkC_enu(link_3_enu);
+		bean.setSubtitle_cht(subtitle_cht);
+		bean.setSubtitle_enu(subtitle_enu);
+		bean.setDescription_cht(description_cht);
+		bean.setDescription_enu(description_enu);
+		bean.setTop_cht(top_cht);
+		bean.setTop_enu(top_enu);
+
+		HotNewsDAO.getInstance().insertHotNews(bean);
+		
+		String url = "/backend/hotnews/hotnews-list.jsp";
+		getServletContext().getRequestDispatcher(url).forward(request, response);
+	}
+}

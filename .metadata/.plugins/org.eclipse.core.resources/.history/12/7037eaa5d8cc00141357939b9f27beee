@@ -1,0 +1,234 @@
+package com.digital.backend.dao.hotnews;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.ArrayList;
+
+import com.digital.backend.bean.hotnews.HotNewsBean;
+
+public class HotNewsDAO {
+	private static HotNewsDAO hotNewsDAO;
+	
+	private HotNewsDAO(){}
+	
+	public synchronized static HotNewsDAO getInstance(){
+		return hotNewsDAO == null ? new HotNewsDAO() : hotNewsDAO;
+	}
+	
+	public int getMaxId() throws Exception{
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		int hotnews_id = 0;
+		
+		try{
+			String sql = "select ifnull(max(hotnews_id),0) as hotnews_id from digital_hotnews";
+			conn = DriverManager.getConnection("proxool.digital"); 
+			pstmt= conn.prepareStatement(sql);
+			
+			rs = pstmt.executeQuery();
+			
+			if(rs.next()){
+				hotnews_id = rs.getInt("hotnews_id");
+			}
+		}catch(Exception e){
+			e.printStackTrace();
+		}finally{
+			rs.close();
+			pstmt.close();
+			conn.close();
+		}
+		return hotnews_id;
+	}
+	
+	public void insertHotNews(HotNewsBean bean) throws Exception{
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		
+		try{
+			//prepare sql script
+			String sql = "insert into digital_hotnews values (?,?,?,?,?, ?,?,?,?,?, ?,?,?,?,?, ?,?,?,?,?, ?,?)";
+			
+			conn = DriverManager.getConnection("proxool.digital"); 
+			pstmt= conn.prepareStatement(sql);
+			pstmt.setNull(1, java.sql.Types.INTEGER);
+			pstmt.setInt(2, bean.getHotnews_id());
+			pstmt.setInt(3, bean.getLang_id());
+			pstmt.setNString(4, bean.getTitle());
+			pstmt.setString(5, bean.getSubtitle());
+			pstmt.setString(6, bean.getDescription());
+			pstmt.setString(7, bean.getAuthor());
+			pstmt.setString(8, bean.getLinkA());
+			pstmt.setString(9, bean.getLinkB());
+			pstmt.setString(10, bean.getLinkC());
+			pstmt.setString(11, bean.getImageApath());
+			pstmt.setString(12, bean.getImageBpath());
+			pstmt.setString(13, bean.getImageCpath());
+			pstmt.setInt(14, bean.getBreadcrumbA());
+			pstmt.setInt(15, bean.getBreadcrumbB());
+			pstmt.setInt(16, bean.getBreadcrumbC());
+			pstmt.setString(17, bean.getFileApath());
+			pstmt.setString(18, bean.getFileBpath());
+			pstmt.setString(19, bean.getFileCpath());
+			pstmt.setNull(20, java.sql.Types.DATE);//default is now()
+			pstmt.setBoolean(21, bean.getTop() == 1 ? true : false);
+			pstmt.setBoolean(22, bean.getEnabled() == 1 ? true : false);
+			
+			pstmt.execute();
+		}catch(Exception e){
+			e.printStackTrace();
+		}finally{
+			pstmt.close();
+			conn.close();
+		}
+	}
+	
+	public void updateHotNews(HotNewsBean bean) throws Exception{
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		
+		try{
+			//prepare sql script
+			StringBuffer sql = new StringBuffer();
+			sql.append("update digital_hotnews set hotnews_title = ?, hotnews_subtitle = ?, hotnews_description = ?, ")
+				.append("                                           hotnews_author = ?, hotnews_linkA = ?, hotnews_linkB = ?, hotnews_linkC = ?, hotnews_imgPahtA = ?, ")
+				.append("                                           hotnews_imgPathB = ?, hotnews_imgPathC = ?, hotnews_breadcrumbA = ?, hotnews_breadcrumbB = ?, ")
+				.append("                                           hotnews_breadcrumbC = ?, hotnews_filePathA = ?, hotnews_filePathB = ?, hotnews_filePathC = ?, ")
+				.append("                                           hotnews_top = ?, hotnews_enabled = ? where hotnews_id = ? and hotnews_lang_id = ? ");
+			
+			conn = DriverManager.getConnection("proxool.digital"); 
+			pstmt= conn.prepareStatement(sql.toString());
+			pstmt.setString(1, bean.getTitle());
+			pstmt.setString(2, bean.getSubtitle());
+			pstmt.setString(3, bean.getDescription());
+			pstmt.setString(4, bean.getAuthor());
+			pstmt.setString(5, bean.getLinkA());
+			pstmt.setString(6, bean.getLinkB());
+			pstmt.setString(7, bean.getLinkC());
+			pstmt.setString(8, bean.getImageApath());
+			pstmt.setString(9, bean.getImageBpath());
+			pstmt.setString(10, bean.getImageCpath());
+			pstmt.setInt(11, bean.getBreadcrumbA());
+			pstmt.setInt(12, bean.getBreadcrumbB());
+			pstmt.setInt(13, bean.getBreadcrumbC());
+			pstmt.setString(14, bean.getFileApath());
+			pstmt.setString(15, bean.getFileBpath());
+			pstmt.setString(16, bean.getFileCpath());
+			pstmt.setBoolean(17, bean.getTop() == 1 ? true : false);
+			pstmt.setBoolean(18, bean.getEnabled() == 1 ? true : false);
+			pstmt.setInt(19, bean.getHotnews_id());
+			pstmt.setInt(20, bean.getLang_id());
+			
+			pstmt.execute();
+		}catch(Exception e){
+			e.printStackTrace();
+		}finally{
+			pstmt.close();
+			conn.close();
+		}
+	}
+	
+	public ArrayList<HotNewsBean> getHotNews(int hotnews_id) throws Exception{
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		ArrayList<HotNewsBean> list = new ArrayList<HotNewsBean>();
+		
+		try{
+			String sql = "select * from digital_hotnews where hotnews_id = ? ";
+			
+			conn = DriverManager.getConnection("proxool.digital");
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setInt(1, hotnews_id);
+			
+			rs = pstmt.executeQuery();
+			
+			while(rs.next()){
+				HotNewsBean bean = new HotNewsBean();
+				bean.setHotnews_id(rs.getInt("hotnews_id"));
+				bean.setLang_id(rs.getInt("hotnews_lang_id"));
+				bean.setTitle(rs.getString("hotnews_title"));
+				bean.setSubtitle(rs.getString("hotnews_subtitle"));
+				bean.setAuthor(rs.getString("hotnews_author"));
+				bean.setDescription(rs.getString("hotnews_description"));
+				bean.setLinkA(rs.getString("hotnews_linkA"));
+				bean.setLinkB(rs.getString("hotnews_linkB"));
+				bean.setLinkC(rs.getString("hotnews_linkC"));
+				bean.setImageApath(rs.getString("hotnews_imgPathA"));
+				bean.setImageBpath(rs.getString("hotnews_imgPathB"));
+				bean.setImageCpath(rs.getString("hotnews_imgPathC"));
+				bean.setBreadcrumbA(rs.getInt("hotnews_breadcrumbA"));
+				bean.setBreadcrumbB(rs.getInt("hotnews_breadcrumbB"));
+				bean.setBreadcrumbC(rs.getInt("hotnews_breadcrumbC"));
+				bean.setFileApath(rs.getString("hotnews_filePathA"));
+				bean.setFileBpath(rs.getString("hotnews_filePathB"));
+				bean.setFileCpath(rs.getString("hotnews_filePathC"));
+				bean.setTop(rs.getInt("hotnews_top"));
+				bean.setEnabled(rs.getInt("hotnews_enabled"));
+				bean.setCreateDate(rs.getString("hotnews_createDate"));
+				list.add(bean);
+			}
+		}catch(Exception e){
+			e.printStackTrace();
+		}finally{
+			rs.close();
+			pstmt.close();
+			conn.close();
+		}
+		
+		return list;
+	}
+	
+	public ArrayList<HotNewsBean> getAllHotNews(int page, int page_size) throws Exception{
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		ArrayList<HotNewsBean> list = new ArrayList<HotNewsBean>();
+		
+		try{
+			String sql = "select * from digital_hotnews where hotnews_lang_id = 1 order by hotnews_id desc limit ?, ? ";//only get cht version
+			conn = DriverManager.getConnection("proxool.digital");
+			pstmt = conn.prepareStatement(sql);
+			pstmt.setInt(1, page - 1);
+			pstmt.setInt(2, page_size);
+			
+			rs = pstmt.executeQuery();
+			
+			while(rs.next()){
+				HotNewsBean bean = new HotNewsBean();
+				bean.setHotnews_id(rs.getInt("hotnews_id"));
+				bean.setLang_id(rs.getInt("hotnews_lang_id"));
+				bean.setTitle(rs.getString("hotnews_title"));
+				bean.setSubtitle(rs.getString("hotnews_subtitle"));
+				bean.setAuthor(rs.getString("hotnews_author"));
+				bean.setDescription(rs.getString("hotnews_description"));
+				bean.setLinkA(rs.getString("hotnews_linkA"));
+				bean.setLinkB(rs.getString("hotnews_linkB"));
+				bean.setLinkC(rs.getString("hotnews_linkC"));
+				bean.setImageApath(rs.getString("hotnews_imgPathA"));
+				bean.setImageBpath(rs.getString("hotnews_imgPathB"));
+				bean.setImageCpath(rs.getString("hotnews_imgPathC"));
+				bean.setBreadcrumbA(rs.getInt("hotnews_breadcrumbA"));
+				bean.setBreadcrumbB(rs.getInt("hotnews_breadcrumbB"));
+				bean.setBreadcrumbC(rs.getInt("hotnews_breadcrumbC"));
+				bean.setFileApath(rs.getString("hotnews_filePathA"));
+				bean.setFileBpath(rs.getString("hotnews_filePathB"));
+				bean.setFileCpath(rs.getString("hotnews_filePathC"));
+				bean.setTop(rs.getInt("hotnews_top"));
+				bean.setEnabled(rs.getInt("hotnews_enabled"));
+				bean.setCreateDate(rs.getString("hotnews_createDate"));
+				list.add(bean);
+			}
+		}catch(Exception e){
+			e.printStackTrace();
+		}finally{
+			rs.close();
+			pstmt.close();
+			conn.close();
+		}
+		
+		return list;
+	}
+}

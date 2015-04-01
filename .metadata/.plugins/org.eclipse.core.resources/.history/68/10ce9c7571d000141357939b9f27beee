@@ -1,0 +1,26 @@
+package com.digital.backend.common.bean;
+
+public abstract class CommonDataBean {
+	int id;
+	int lang_id;
+	String title;
+	String author;
+	String imageApath;
+	String imageBpath;
+	String imageCpath;
+	String linkA;
+	String linkB;
+	String linkC;
+	String subtitle;
+	String description;
+	String createDate;
+	int breadcrumbA;
+	int breadcrumbB;
+	int breadcrumbC;
+	String fileApath;
+	String fileBpath;
+	String fileCpath;
+	int top;
+	int enabled;
+	int pageviews;
+}

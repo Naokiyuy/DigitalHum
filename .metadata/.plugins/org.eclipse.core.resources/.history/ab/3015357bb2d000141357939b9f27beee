@@ -1,0 +1,16 @@
+package com.digital.backend.common.items;
+
+public enum ItemAction {
+	hotnews, interperspective;
+	
+	public static ItemAction getAction(String s){
+		if(s != null && !"".equals(s)){
+			if("hotnews".equals(s)){
+				return ItemAction.hotnews;
+			}else if("interperspective".equals(s)){
+				return ItemAction.interperspective;
+			}
+		}
+		return null;
+	}
+}

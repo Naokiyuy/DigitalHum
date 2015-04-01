@@ -1,0 +1,5 @@
+package com.digital.backend.dao.backmenu;
+
+public class BackMenuDAO {
+
+}

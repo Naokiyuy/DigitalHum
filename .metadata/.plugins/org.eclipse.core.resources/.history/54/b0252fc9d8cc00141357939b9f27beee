@@ -1,0 +1,134 @@
+package com.digital.backend.action.items.hotnews;
+
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.Calendar;
+import java.util.Hashtable;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.commons.io.FilenameUtils;
+
+import com.digital.backend.common.file.CustomFileRenamePolicy;
+import com.oreilly.servlet.multipart.FilePart;
+import com.oreilly.servlet.multipart.MultipartParser;
+import com.oreilly.servlet.multipart.ParamPart;
+import com.oreilly.servlet.multipart.Part;
+
+public class HotNewsEditAction extends HttpServlet{
+	private static final long serialVersionUID = 1L;
+	private String HOTNEWS_UPLOAD_DIR = "";
+
+	@Override
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		try {
+			processRequest(request, response);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		try {
+			processRequest(request, response);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	private void processRequest(HttpServletRequest request,
+			HttpServletResponse response) throws Exception{
+		Hashtable parameters = new Hashtable();
+		parameters = upload(request, response);
+		
+		//CHT
+		String title_cht = parameters.get("title_cht") == null ? "" : parameters.get("title_cht").toString();
+		String author_cht = parameters.get("author_cht") == null ? "" : parameters.get("author_cht").toString();
+		String link_1_cht = parameters.get("link_1_cht") == null ? "" : parameters.get("link_1_cht").toString();
+		String link_2_cht = parameters.get("link_2_cht") == null ? "" : parameters.get("link_2_cht").toString();
+		String link_3_cht = parameters.get("link_3_cht") == null ? "" : parameters.get("link_3_cht").toString();
+		String image_1_cht = parameters.get("image_1_cht") == null ? "" : parameters.get("image_1_cht").toString();
+		String image_2_cht = parameters.get("image_2_cht") == null ? "" : parameters.get("image_2_cht").toString();
+		String image_3_cht = parameters.get("image_3_cht") == null ? "" : parameters.get("image_3_cht").toString();
+		int breadcrumb_1_cht = Integer.parseInt(parameters.get("breadcrumb_1_cht") == null ? "0" : parameters.get("breadcrumb_1_cht").toString());
+		int breadcrumb_2_cht = Integer.parseInt(parameters.get("breadcrumb_2_cht") == null ? "0" : parameters.get("breadcrumb_2_cht").toString());
+		int breadcrumb_3_cht = Integer.parseInt(parameters.get("breadcrumb_3_cht") == null ? "0" : parameters.get("breadcrumb_3_cht").toString());
+		String file_1_cht = parameters.get("file_1_cht") == null ? "" : parameters.get("file_1_cht").toString();
+		String file_2_cht = parameters.get("file_2_cht") == null ? "" : parameters.get("file_2_cht").toString();
+		String file_3_cht = parameters.get("file_3_cht") == null ? "" : parameters.get("file_3_cht").toString();
+		String subtitle_cht = parameters.get("subtitle_cht") == null ? "" : parameters.get("subtitle_cht").toString();
+		String description_cht = parameters.get("description_cht") == null ? "" : parameters.get("description_cht").toString();
+		int top_cht = Integer.parseInt(parameters.get("top_cht") == null ? "0" : parameters.get("top_cht").toString());
+		int enabled_cht = Integer.parseInt(parameters.get("enabled_cht") == null ? "" : parameters.get("enabled_cht").toString());
+		
+		//ENU
+		String title_enu = parameters.get("title_enu") == null ? "" : parameters.get("title_enu").toString();
+		String author_enu = parameters.get("author_enu") == null ? "" : parameters.get("author_enu").toString();
+		String link_1_enu = parameters.get("link_1_enu") == null ? "" : parameters.get("link_1_enu").toString();
+		String link_2_enu = parameters.get("link_2_enu") == null ? "" : parameters.get("link_2_enu").toString();
+		String link_3_enu = parameters.get("link_3_enu") == null ? "" : parameters.get("link_3_enu").toString();
+		String image_1_enu = parameters.get("image_1_enu") == null ? "" : parameters.get("image_1_enu").toString();
+		String image_2_enu = parameters.get("image_2_enu") == null ? "" : parameters.get("image_2_enu").toString();
+		String image_3_enu = parameters.get("image_3_enu") == null ? "" : parameters.get("image_3_enu").toString();
+		int breadcrumb_1_enu = Integer.parseInt(parameters.get("breadcrumb_1_enu") == null ? "0" : parameters.get("breadcrumb_1_enu").toString());
+		int breadcrumb_2_enu = Integer.parseInt(parameters.get("breadcrumb_2_enu") == null ? "0" : parameters.get("breadcrumb_2_enu").toString());
+		int breadcrumb_3_enu = Integer.parseInt(parameters.get("breadcrumb_3_enu") == null ? "0" : parameters.get("breadcrumb_3_enu").toString());
+		String file_1_enu = parameters.get("file_1_enu") == null ? "" : parameters.get("file_1_enu").toString();
+		String file_2_enu = parameters.get("file_2_enu") == null ? "" : parameters.get("file_2_enu").toString();
+		String file_3_enu = parameters.get("file_3_enu") == null ? "" : parameters.get("file_3_enu").toString();
+		String subtitle_enu = parameters.get("subtitle_enu") == null ? "" : parameters.get("subtitle_enu").toString();
+		String description_enu = parameters.get("description_enu") == null ? "" : parameters.get("description_enu").toString();
+		int top_enu = Integer.parseInt(parameters.get("top_enu") == null ? "" : parameters.get("top_enu").toString());
+		int enabled_enu = Integer.parseInt(parameters.get("enabled_enu") == null ? "" : parameters.get("enabled_enu").toString());
+		
+		
+	}
+	
+	@SuppressWarnings({ "rawtypes", "unchecked" })
+	public Hashtable upload(HttpServletRequest request, HttpServletResponse response) throws Exception{
+		Hashtable parameters = new Hashtable();
+		
+		Calendar calendar = Calendar.getInstance();
+		long nowTime = calendar.getTimeInMillis();
+		
+		String error         = "";
+		String fileName      = "";
+		// max Upload < 10MB !
+		MultipartParser parser = new MultipartParser(request, 10*1024*1024);
+		Part part;
+		while ((part = parser.readNextPart()) != null){
+			String name = part.getName();
+		    if (part.isParam()) {
+		    	ParamPart paramPart = (ParamPart) part;
+		        String value = paramPart.getStringValue();
+		        parameters.put(name, value);
+		    }else if (part.isFile()) {
+		        FilePart filePart = (FilePart) part;
+		        filePart.setRenamePolicy(new CustomFileRenamePolicy());
+		        fileName = filePart.getFileName();
+		        if (fileName != null){
+		        	parameters.put(filePart.getName(), String.valueOf(nowTime) + "." + FilenameUtils.getExtension(fileName));
+		            FileOutputStream outs = null;
+		            try{
+		            	new File(HOTNEWS_UPLOAD_DIR).mkdirs();
+		                outs = new FileOutputStream(HOTNEWS_UPLOAD_DIR+fileName);
+		                filePart.writeTo(outs);
+		                outs.flush();
+		                outs.close();
+		            }catch (Exception e) {
+		            	error = "Failed in MultiPartRequest: " + e.getMessage();
+		            	System.out.println(error);
+		            }
+		         }
+		     }
+		  }
+		  return parameters;
+	}
+}

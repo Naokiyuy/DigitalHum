@@ -1,0 +1,99 @@
+package com.digital.backend.action.items.common;
+
+import java.io.IOException;
+import java.util.ArrayList;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.digital.backend.common.bean.CommonDataBean;
+import com.digital.backend.dao.hotnews.HotNewsDAO;
+import com.digital.backend.dao.interperspective.InterPerspectiveDAO;
+import com.oreilly.servlet.ParameterParser;
+
+enum ItemAction{
+	hotnews, interperspective;
+	
+	public static ItemAction getAction(String s){
+		if(s != null && !"".equals(s)){
+			if("hotnews".equals(s)){
+				return ItemAction.hotnews;
+			}else if("interperspective".equals(s)){
+				return ItemAction.interperspective;
+			}
+		}
+		return null;
+	}
+}
+
+public class ListAction extends HttpServlet{
+	private static final long serialVersionUID = 1L;
+
+	
+	@Override
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		try {
+			processRequest(request, response);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		try {
+			processRequest(request, response);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	private void processRequest(HttpServletRequest request,
+			HttpServletResponse response) throws Exception{
+		ParameterParser parser = new ParameterParser(request);
+		
+		try{
+			
+			int page = parser.getIntParameter("page", 1);
+			int page_size = parser.getIntParameter("page_size", 10);
+			String action = parser.getStringParameter("action","");
+			
+			ArrayList<CommonDataBean> list = new ArrayList<CommonDataBean>();
+			int totalNumbers = 0;
+			double totalPages = 0;
+			String url = "";
+			
+			ItemAction itemAction = ItemAction.getAction(action);
+			switch(itemAction){
+				case hotnews:
+					list = HotNewsDAO.getInstance().getHotNewsByPage(page, page_size);
+					totalNumbers = HotNewsDAO.getInstance().getTotal();
+					totalPages = Math.ceil(totalNumbers / (double) page_size);
+					url = "/backend/hotnews/hotnews-list.jsp";
+					break;
+				case interperspective:
+					list = InterPerspectiveDAO.getInstance().getDataByPage(page, page_size);
+					totalNumbers = InterPerspectiveDAO.getInstance().getTotal();
+					totalPages = Math.ceil(totalNumbers / (double) page_size);
+					url = "/backend/perspective/interperspective-list.jsp";
+					break;
+				default:
+					break;
+			}
+			
+			request.setAttribute("page", page);
+			request.setAttribute("page_size", page_size);
+			request.setAttribute("totalNumbers", totalNumbers);
+			request.setAttribute("totalPages", totalPages);
+			request.setAttribute("hotnewsList", list);
+
+			getServletContext().getRequestDispatcher(url).forward(request, response);
+		}catch(Exception e){
+			e.printStackTrace();
+		}
+	}
+}

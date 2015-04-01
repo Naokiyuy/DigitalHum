@@ -1,0 +1,5 @@
+package com.digital.backend.dao.hotnews;
+
+public class HotNewsDAO {
+
+}

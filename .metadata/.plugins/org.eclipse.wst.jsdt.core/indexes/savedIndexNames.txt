@@ -1,0 +1,10 @@
+INDEX VERSION 1.3+I:\MyWorkspace\DigitalHum\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1067744574.index
+3268997172.index
+1067744574.index
+2061049042.index
+1735277880.index
+1318804902.index
+2075217754.index
+831499081.index
+1700210765.index

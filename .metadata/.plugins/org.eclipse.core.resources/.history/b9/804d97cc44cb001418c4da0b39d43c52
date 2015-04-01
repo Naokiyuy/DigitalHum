@@ -1,0 +1,57 @@
+package com.digital.backend.dao.hotnews;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import com.digital.backend.bean.hotnews.HotNewsBean;
+
+public class HotNewsDAO {
+	private static HotNewsDAO hotNewsDAO;
+	
+	private HotNewsDAO(){}
+	
+	public synchronized static HotNewsDAO getInstance(){
+		return hotNewsDAO == null ? new HotNewsDAO() : hotNewsDAO;
+	}
+	
+	public void insertHotNews(HotNewsBean bean) throws Exception{
+		Connection conn = null;
+		PreparedStatement pstmt = null;
+		
+		try{
+			//prepare sql script
+			String sql = "insert into digital_hotnews values (?,?,?,?,?, ?,?,?,?,?, ?,?,?,?,?, ?,?,?,?,?, ?)";
+			
+			conn = DriverManager.getConnection("proxool.digital"); 
+			pstmt= conn.prepareStatement(sql);
+			pstmt.setNull(1, java.sql.Types.INTEGER);
+			pstmt.setInt(2, bean.getLang_id());
+			pstmt.setString(3, bean.getTitle());
+			pstmt.setString(4, bean.getSubtitle());
+			pstmt.setString(5, bean.getDescription());
+			pstmt.setString(6, bean.getAuthor());
+			pstmt.setString(7, bean.getLinkA());
+			pstmt.setString(8, bean.getLinkB());
+			pstmt.setString(9, bean.getLinkC());
+			pstmt.setString(10, bean.getImageApath());
+			pstmt.setString(11, bean.getImageBpath());
+			pstmt.setString(12, bean.getImageCpath());
+			pstmt.setInt(13, bean.getBreadcrumbA());
+			pstmt.setInt(14, bean.getBreadcrumbB());
+			pstmt.setInt(15, bean.getBreadcrumbC());
+			pstmt.setString(16, bean.getFileApath());
+			pstmt.setString(17, bean.getFileBpath());
+			pstmt.setString(18, bean.getFileCpath());
+			pstmt.setString(19, "");//default is now()
+			pstmt.setBoolean(20, bean.getTop() == 1 ? true : false);
+			pstmt.setBoolean(21, bean.getEnabled() == 1 ? true : false);
+			
+			pstmt.execute();
+		}catch(Exception e){
+			e.printStackTrace();
+		}finally{
+			pstmt.close();
+			conn.close();
+		}
+	}
+}

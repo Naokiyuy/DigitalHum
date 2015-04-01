@@ -1,0 +1,80 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+	
+	<context-param>  
+	    <param-name>contextConfigLocation</param-name>     
+	    <param-value>/WEB-INF/spring-security.xml</param-value>          
+	</context-param>   
+  
+  	<filter>     
+	    <filter-name>springSecurityFilterChain</filter-name>     
+	    <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>     
+	</filter>     
+     
+	<filter-mapping>     
+	    <filter-name>springSecurityFilterChain</filter-name>     
+	    <url-pattern>/digital/backend/*</url-pattern>     
+	</filter-mapping>  
+  
+  	<servlet>
+		<servlet-name>ServletConfigurator</servlet-name>
+	  	<servlet-class>org.logicalcobwebs.proxool.configuration.ServletConfigurator</servlet-class>
+	  	<init-param>
+  			<param-name>xmlFile</param-name>
+  			<param-value>WEB-INF/proxool.xml</param-value>
+  		</init-param>
+  		<load-on-startup>1</load-on-startup>
+  	</servlet>
+  	
+  	<servlet>
+  		<servlet-name>proxool</servlet-name>
+  		<servlet-class>org.logicalcobwebs.proxool.admin.servlet.AdminServlet</servlet-class>
+  	</servlet>
+	<servlet-mapping>
+  		<servlet-name>proxool</servlet-name>
+  		<url-pattern>/proxool</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+		<description></description>
+		<display-name>BackendHomeAction</display-name>
+		<servlet-name>BackendHomeAction</servlet-name>
+		<servlet-class>
+			com.digital.backend.action.home.BackendHomeAction
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BackendHomeAction</servlet-name>
+		<url-pattern>/backend/index.do</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description></description>
+		<display-name>HotNewsAction</display-name>
+		<servlet-name>HotNewsAction</servlet-name>
+		<servlet-class>
+			com.digital.backend.action.items.hotnews.HotNewsAction
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HotNewsAction</servlet-name>
+		<url-pattern>/backend/hotnews.do</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description></description>
+		<display-name>HotNewsNewAction</display-name>
+		<servlet-name>HotNewsNewAction</servlet-name>
+		<servlet-class>
+			com.digital.backend.action.items.hotnews.HotNewsNewAction
+		</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HotNewsNewAction</servlet-name>
+		<url-pattern>/backend/hotnews-add.do</url-pattern>
+	</servlet-mapping>
+</web-app>

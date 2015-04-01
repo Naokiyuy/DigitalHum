@@ -1,0 +1,100 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>[後台]最新消息-新增</title>
+<link rel="stylesheet" type="text/css" href="/backend/css/hotnews/add.css" />
+</head>
+<body>
+<jsp:include page="/backend/header/header.jsp"></jsp:include>
+<hr />
+<form action="">
+<div id="hotnews-add-table">
+	<div class="hotnews-add-tr">
+		<div class="hotnews-add-td"><span>新增最新消息</span></div>
+		<div class="hotnews-add-td"></div>
+	</div>
+	<div class="hotnews-add-tr">
+		<div class="hotnews-add-td">標題</div>
+		<div class="hotnews-add-td"><input type="text" id="title" name="title"/></div>
+	</div>
+	<div class="hotnews-add-tr">
+		<div class="hotnews-add-td">副標題</div>
+		<div class="hotnews-add-td"><input type="text" id="subtitle" name="subtitle"/></div>
+	</div>
+	<div class="hotnews-add-tr">
+		<div class="hotnews-add-td">作者</div>
+		<div class="hotnews-add-td"><input type="text" id="author" name="author"/></div>
+	</div>
+	<div class="hotnews-add-tr">
+		<div class="hotnews-add-td">連結一</div>
+		<div class="hotnews-add-td"><input type="text" id="link_1" name="link_1"/></div>
+	</div>
+	<div class="hotnews-add-tr">
+		<div class="hotnews-add-td">連結二</div>
+		<div class="hotnews-add-td"><input type="text" id="link_2" name="link_2"/></div>
+	</div>
+	<div class="hotnews-add-tr">
+		<div class="hotnews-add-td">連結三</div>
+		<div class="hotnews-add-td"><input type="text" id="link_3" name="link_3"/></div>
+	</div>
+	<div class="hotnews-add-tr">
+		<div class="hotnews-add-td">圖片一</div>
+		<div class="hotnews-add-td"><input type="file" id="image_1" name="image_1" /></div>
+	</div>
+	<div class="hotnews-add-tr">
+		<div class="hotnews-add-td">圖片二</div>
+		<div class="hotnews-add-td"><input type="file" id="image_2" name="image_2" /></div>
+	</div>
+	<div class="hotnews-add-tr">
+		<div class="hotnews-add-td">圖片三</div>
+		<div class="hotnews-add-td"><input type="file" id="image_3" name="image_3" /></div>
+	</div>
+	<div class="hotnews-add-tr">
+		<div class="hotnews-add-td">分類標籤</div>
+		<div class="hotnews-add-td">
+			<select id="breadcrumb_1" name="breadcrumb_1">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+			</select>&nbsp;>&nbsp;
+			<select id="breadcrumb_2" name="breadcrumb_2">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+			</select>&nbsp;>&nbsp;
+			<select id="breadcrumb_3" name="breadcrumb_3">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+			</select>
+		</div>
+	</div>
+	<div class="hotnews-add-tr">
+		<div class="hotnews-add-td">檔案下載一</div>
+		<div class="hotnews-add-td"><input type="file" id="file_1" name="file_1" /></div>
+	</div>
+	<div class="hotnews-add-tr">
+		<div class="hotnews-add-td">檔案下載二</div>
+		<div class="hotnews-add-td"><input type="file" id="file_2" name="file_2" /></div>
+	</div>
+	<div class="hotnews-add-tr">
+		<div class="hotnews-add-td">檔案下載三</div>
+		<div class="hotnews-add-td"><input type="file" id="file_3" name="file_3" /></div>
+	</div>
+	<div class="hotnews-add-tr">
+		<div class="hotnews-add-td">置頂</div>
+		<div class="hotnews-add-td">
+			<select id="top" name="top">
+				<option value="0">No</option>
+				<option value="1">Yes</option>
+			</select>
+		</div>
+	</div>
+</div>
+</form>
+<jsp:include page="/backend/footer/footer.jsp"></jsp:include>
+</body>
+</html>

@@ -1,0 +1,5 @@
+package com.digital.backend.action.items.common;
+
+public class DataAddAction {
+
+}

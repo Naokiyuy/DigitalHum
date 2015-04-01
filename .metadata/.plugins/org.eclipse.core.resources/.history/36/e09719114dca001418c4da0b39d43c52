@@ -1,0 +1,258 @@
+package com.digital.backend.bean.hotnews;
+
+public class HotNewsBean {
+	String title_cht;
+	String author_cht;
+	String imageApath_cht;
+	String imageBpath_cht;
+	String imageCpath_cht;
+	String linkA_cht;
+	String linkB_cht;
+	String linkC_cht;
+	String subtitle_cht;
+	String description_cht;
+	String createDate_cht;
+	String breadcrumbA_cht;
+	String breadcrumbB_cht;
+	String breadcrumbC_cht;
+	String fileApath_cht;
+	String fileBpath_cht;
+	String fileCpath_cht;
+	int top_cht;
+	
+	String title_enu;
+	String author_enu;
+	String imageApath_enu;
+	String imageBpath_enu;
+	String imageCpath_enu;
+	String linkA_enu;
+	String linkB_enu;
+	String linkC_enu;
+	String subtitle_enu;
+	String description_enu;
+	String createDate_enu;
+	String breadcrumbA_enu;
+	String breadcrumbB_enu;
+	String breadcrumbC_enu;
+	String fileApath_enu;
+	String fileBpath_enu;
+	String fileCpath_enu;
+	int top_enu;
+	
+	public String getTitle_cht() {
+		return title_cht;
+	}
+	public void setTitle_cht(String title_cht) {
+		this.title_cht = title_cht;
+	}
+	public String getAuthor_cht() {
+		return author_cht;
+	}
+	public void setAuthor_cht(String author_cht) {
+		this.author_cht = author_cht;
+	}
+	public String getImageApath_cht() {
+		return imageApath_cht;
+	}
+	public void setImageApath_cht(String imageApath_cht) {
+		this.imageApath_cht = imageApath_cht;
+	}
+	public String getImageBpath_cht() {
+		return imageBpath_cht;
+	}
+	public void setImageBpath_cht(String imageBpath_cht) {
+		this.imageBpath_cht = imageBpath_cht;
+	}
+	public String getImageCpath_cht() {
+		return imageCpath_cht;
+	}
+	public void setImageCpath_cht(String imageCpath_cht) {
+		this.imageCpath_cht = imageCpath_cht;
+	}
+	public String getLinkA_cht() {
+		return linkA_cht;
+	}
+	public void setLinkA_cht(String linkA_cht) {
+		this.linkA_cht = linkA_cht;
+	}
+	public String getLinkB_cht() {
+		return linkB_cht;
+	}
+	public void setLinkB_cht(String linkB_cht) {
+		this.linkB_cht = linkB_cht;
+	}
+	public String getLinkC_cht() {
+		return linkC_cht;
+	}
+	public void setLinkC_cht(String linkC_cht) {
+		this.linkC_cht = linkC_cht;
+	}
+	public String getSubtitle_cht() {
+		return subtitle_cht;
+	}
+	public void setSubtitle_cht(String subtitle_cht) {
+		this.subtitle_cht = subtitle_cht;
+	}
+	public String getDescription_cht() {
+		return description_cht;
+	}
+	public void setDescription_cht(String description_cht) {
+		this.description_cht = description_cht;
+	}
+	public String getCreateDate_cht() {
+		return createDate_cht;
+	}
+	public void setCreateDate_cht(String createDate_cht) {
+		this.createDate_cht = createDate_cht;
+	}
+	public String getBreadcrumbA_cht() {
+		return breadcrumbA_cht;
+	}
+	public void setBreadcrumbA_cht(String breadcrumbA_cht) {
+		this.breadcrumbA_cht = breadcrumbA_cht;
+	}
+	public String getBreadcrumbB_cht() {
+		return breadcrumbB_cht;
+	}
+	public void setBreadcrumbB_cht(String breadcrumbB_cht) {
+		this.breadcrumbB_cht = breadcrumbB_cht;
+	}
+	public String getBreadcrumbC_cht() {
+		return breadcrumbC_cht;
+	}
+	public void setBreadcrumbC_cht(String breadcrumbC_cht) {
+		this.breadcrumbC_cht = breadcrumbC_cht;
+	}
+	public String getFileApath_cht() {
+		return fileApath_cht;
+	}
+	public void setFileApath_cht(String fileApath_cht) {
+		this.fileApath_cht = fileApath_cht;
+	}
+	public String getFileBpath_cht() {
+		return fileBpath_cht;
+	}
+	public void setFileBpath_cht(String fileBpath_cht) {
+		this.fileBpath_cht = fileBpath_cht;
+	}
+	public String getFileCpath_cht() {
+		return fileCpath_cht;
+	}
+	public void setFileCpath_cht(String fileCpath_cht) {
+		this.fileCpath_cht = fileCpath_cht;
+	}
+	public int getTop_cht() {
+		return top_cht;
+	}
+	public void setTop_cht(int top_cht) {
+		this.top_cht = top_cht;
+	}
+	public String getTitle_enu() {
+		return title_enu;
+	}
+	public void setTitle_enu(String title_enu) {
+		this.title_enu = title_enu;
+	}
+	public String getAuthor_enu() {
+		return author_enu;
+	}
+	public void setAuthor_enu(String author_enu) {
+		this.author_enu = author_enu;
+	}
+	public String getImageApath_enu() {
+		return imageApath_enu;
+	}
+	public void setImageApath_enu(String imageApath_enu) {
+		this.imageApath_enu = imageApath_enu;
+	}
+	public String getImageBpath_enu() {
+		return imageBpath_enu;
+	}
+	public void setImageBpath_enu(String imageBpath_enu) {
+		this.imageBpath_enu = imageBpath_enu;
+	}
+	public String getImageCpath_enu() {
+		return imageCpath_enu;
+	}
+	public void setImageCpath_enu(String imageCpath_enu) {
+		this.imageCpath_enu = imageCpath_enu;
+	}
+	public String getLinkA_enu() {
+		return linkA_enu;
+	}
+	public void setLinkA_enu(String linkA_enu) {
+		this.linkA_enu = linkA_enu;
+	}
+	public String getLinkB_enu() {
+		return linkB_enu;
+	}
+	public void setLinkB_enu(String linkB_enu) {
+		this.linkB_enu = linkB_enu;
+	}
+	public String getLinkC_enu() {
+		return linkC_enu;
+	}
+	public void setLinkC_enu(String linkC_enu) {
+		this.linkC_enu = linkC_enu;
+	}
+	public String getSubtitle_enu() {
+		return subtitle_enu;
+	}
+	public void setSubtitle_enu(String subtitle_enu) {
+		this.subtitle_enu = subtitle_enu;
+	}
+	public String getDescription_enu() {
+		return description_enu;
+	}
+	public void setDescription_enu(String description_enu) {
+		this.description_enu = description_enu;
+	}
+	public String getCreateDate_enu() {
+		return createDate_enu;
+	}
+	public void setCreateDate_enu(String createDate_enu) {
+		this.createDate_enu = createDate_enu;
+	}
+	public String getBreadcrumbA_enu() {
+		return breadcrumbA_enu;
+	}
+	public void setBreadcrumbA_enu(String breadcrumbA_enu) {
+		this.breadcrumbA_enu = breadcrumbA_enu;
+	}
+	public String getBreadcrumbB_enu() {
+		return breadcrumbB_enu;
+	}
+	public void setBreadcrumbB_enu(String breadcrumbB_enu) {
+		this.breadcrumbB_enu = breadcrumbB_enu;
+	}
+	public String getBreadcrumbC_enu() {
+		return breadcrumbC_enu;
+	}
+	public void setBreadcrumbC_enu(String breadcrumbC_enu) {
+		this.breadcrumbC_enu = breadcrumbC_enu;
+	}
+	public String getFileApath_enu() {
+		return fileApath_enu;
+	}
+	public void setFileApath_enu(String fileApath_enu) {
+		this.fileApath_enu = fileApath_enu;
+	}
+	public String getFileBpath_enu() {
+		return fileBpath_enu;
+	}
+	public void setFileBpath_enu(String fileBpath_enu) {
+		this.fileBpath_enu = fileBpath_enu;
+	}
+	public String getFileCpath_enu() {
+		return fileCpath_enu;
+	}
+	public void setFileCpath_enu(String fileCpath_enu) {
+		this.fileCpath_enu = fileCpath_enu;
+	}
+	public int getTop_enu() {
+		return top_enu;
+	}
+	public void setTop_enu(int top_enu) {
+		this.top_enu = top_enu;
+	}
+}
